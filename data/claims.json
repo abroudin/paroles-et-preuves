@@ -885,7 +885,286 @@
           "action": "Déclaration ajoutée sur la base d'une source datée et d'une analyse documentaire préliminaire. Vérification humaine indépendante à réaliser."
         }
       ]
+    },
+    {
+      "id": "primary-20261122-melenchon-smig-smic",
+      "personId": "jean-luc-melenchon",
+      "date": "2026-11-07",
+      "theme": "Emploi",
+      "claim": "Jean-Luc Mélenchon situe la création du SMIC en 1950 et celle du SMIG en 1970.",
+      "rawQuote": "",
+      "context": "Discours de Jean-Luc Mélenchon au meeting du Bourget, retranscription publiée sur son blog",
+      "source": "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/",
+      "status": "contredit",
+      "explanation": "Les sigles sont inversés dans la retranscription : le SMIG a été créé en 1950 et le SMIC l'a remplacé en 1970. La chronologie est confirmée par le ministère du Travail et l'INSEE. Il s'agit d'une erreur factuelle ponctuelle dans le discours, pas d'une évaluation globale de la personne.",
+      "evidence": "https://travail-emploi.gouv.fr/histoire-du-salaire-minimum",
+      "evidenceLinks": [
+        "https://travail-emploi.gouv.fr/histoire-du-salaire-minimum",
+        "https://www.insee.fr/fr/statistiques/4277680"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-melenchon-pauvrete",
+      "personId": "jean-luc-melenchon",
+      "date": "2026-11-07",
+      "theme": "Économie",
+      "claim": "Jean-Luc Mélenchon affirme qu'il y a plus de dix millions de personnes pauvres en France.",
+      "rawQuote": "",
+      "context": "Discours de Jean-Luc Mélenchon au Bourget le 7 novembre 2026",
+      "source": "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/",
+      "status": "indetermine",
+      "explanation": "L'INSEE dénombre 9,8 millions de personnes sous le seuil de pauvreté monétaire en 2024, dans les ménages vivant en logement ordinaire en France métropolitaine. Ce chiffre ne couvre pas toutes les situations de pauvreté et ne mesure pas l'année 2026. Le seuil de dix millions ne peut donc être ni confirmé ni réfuté pour l'ensemble du pays et à la date du discours à partir de cette seule série.",
+      "evidence": "https://www.insee.fr/fr/statistiques/8996928",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/8996928",
+        "https://www.insee.fr/fr/statistiques/5759045"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-melenchon-dette1200",
+      "personId": "jean-luc-melenchon",
+      "date": "2026-11-07",
+      "theme": "Économie",
+      "claim": "Jean-Luc Mélenchon chiffre à 1 200 milliards d'euros la dette publique supplémentaire accumulée par les gouvernements précédents.",
+      "rawQuote": "",
+      "context": "Discours de Jean-Luc Mélenchon au Bourget, comparaison rétrospective de l'endettement",
+      "source": "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/",
+      "status": "nuance",
+      "explanation": "La dette publique de Maastricht a atteint 3 595,5 milliards d'euros au deuxième trimestre 2026. Les séries historiques de l'INSEE situent la dette fin 2017 à environ 2 258 milliards, ce qui représente environ 1 338 milliards de hausse entre ces deux observations. L'ordre de grandeur de 1 200 milliards est proche, mais la période exacte et l'attribution de toute la variation à un gouvernement sont à distinguer. Il ne s'agit pas d'une mesure de dépenses effectivement reçues par les ménages.",
+      "evidence": "https://www.insee.fr/fr/statistiques/9053525",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/9053525",
+        "https://www.insee.fr/fr/statistiques/3676760?sommaire=3696937"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-lisnard-adherents",
+      "personId": "david-lisnard",
+      "date": "2026-11-04",
+      "theme": "Vie politique",
+      "claim": "David Lisnard annonce 100 517 adhésions payantes à Nouvelle Énergie et affirme les avoir fait constater par un commissaire de justice.",
+      "rawQuote": "",
+      "context": "Communication du parti Nouvelle Énergie du 4 novembre 2026 après les déclarations de David Lisnard",
+      "source": "https://www.unenouvelleenergie.fr/nous-sommes-le-deuxieme-parti-de-france-derriere-le-rn-david-lisnard-fait-certifier-ses-100-000-adherents-et-reclame-la-transparence-a-ses-rivaux/",
+      "status": "indetermine",
+      "explanation": "Le site de Nouvelle Énergie présente ce nombre et l'existence d'une certification. Le procès-verbal, son périmètre (cotisations valides, période, doublons) et un inventaire contrôlable indépendamment ne sont pas fournis par cette seule source. Je ne sais pas confirmer le total annoncé.",
+      "evidence": "https://www.unenouvelleenergie.fr/toc-toc-on-arrive-david-lisnard-annonce-plus-de-100-000-adherents-a-nouvelle-energie-sur-bfmtv/",
+      "evidenceLinks": [
+        "https://www.unenouvelleenergie.fr/toc-toc-on-arrive-david-lisnard-annonce-plus-de-100-000-adherents-a-nouvelle-energie-sur-bfmtv/"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-lisnard-pensions",
+      "personId": "david-lisnard",
+      "date": "2026-11-17",
+      "theme": "Économie",
+      "claim": "David Lisnard affirme que l'État verse une cotisation employeur de plus de 80 % du traitement indiciaire brut de ses fonctionnaires civils pour leurs pensions.",
+      "rawQuote": "",
+      "context": "Tribune de David Lisnard sur sa proposition de réforme des retraites, publiée le 17 novembre 2026",
+      "source": "https://www.unenouvelleenergie.fr/pour-une-reforme-des-retraites-qui-reconcilie-les-generations/",
+      "status": "confirme",
+      "explanation": "La documentation budgétaire du ministère chargé des Finances précise qu'en 2026 la contribution employeur au compte d'affectation spéciale Pensions, hors certaines contributions, atteint 82,28 %, et 82,60 % avec ATI. Le chiffre supérieur à 80 % est donc corroboré. Il s'agit d'un taux de cotisation budgétaire propre aux pensions de l'État, qui ne se compare pas directement aux cotisations du secteur privé sans correction de périmètre.",
+      "evidence": "https://www.budget.gouv.fr/documentation/file-download/31225",
+      "evidenceLinks": [
+        "https://www.budget.gouv.fr/documentation/file-download/31225",
+        "https://www.budget.gouv.fr/documentation/file-download/33967"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-asselineau-ue12",
+      "personId": "francois-asselineau",
+      "date": "2026-11-02",
+      "theme": "Europe",
+      "claim": "François Asselineau affirme que la contribution nette de la France au budget de l'Union européenne est d'environ 12 milliards d'euros par an.",
+      "rawQuote": "",
+      "context": "Réunion publique en Charente rapportée par l'UPR le 2 novembre 2026, date exacte de la prise de parole non déterminée",
+      "source": "https://upr.fr/actualites/reunion-publique-en-charente-retrouvons-notre-liberte-et-lindependance-de-la-france",
+      "status": "nuance",
+      "explanation": "Un rapport du Sénat de novembre 2026 indique un solde contributeur net négatif de 9,5 milliards d'euros pour la France en 2025. Le montant exact varie avec les années et les conventions de calcul ; environ 12 milliards ne correspond donc pas au solde 2025 publié par le Sénat. Ce n'est pas la contribution brute de la France (environ 30 milliards en 2026).",
+      "evidence": "https://www.senat.fr/compte-rendu-commissions/20261102/fin.html",
+      "evidenceLinks": [
+        "https://www.senat.fr/compte-rendu-commissions/20261102/fin.html",
+        "https://www.senat.fr/rap/l26-156-22/l26-156-220.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-asselineau-dette3600",
+      "personId": "francois-asselineau",
+      "date": "2026-10-30",
+      "theme": "Économie",
+      "claim": "François Asselineau indique que la dette publique française dépasse 3 600 milliards d'euros.",
+      "rawQuote": "",
+      "context": "Intervention du 30 octobre 2026 reprise sur le site de l'UPR",
+      "source": "https://upr.fr/medias/francois-asselineau-invite-de-f-grimal-r-despalungue-sur-tocsin-30-10-2026",
+      "status": "indetermine",
+      "explanation": "Au deuxième trimestre 2026, l'INSEE chiffre la dette à 3 595,5 milliards d'euros, très près du seuil de 3 600 milliards mais légèrement en dessous. Ce chiffre, disponible à la date de l'intervention, ne permet pas d'établir si la dette avait franchi ce seuil précisément au 30 octobre, faute d'un chiffre trimestriel plus récent. La différence est de 4,5 milliards d'euros, soit environ 0,13 % du total.",
+      "evidence": "https://www.insee.fr/fr/statistiques/9053525",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/9053525"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-dupont-credit-agri",
+      "personId": "nicolas-dupont-aignan",
+      "date": "2026-11-19",
+      "theme": "Économie",
+      "claim": "Nicolas Dupont-Aignan chiffre à 60 milliards d'euros les prêts bancaires des agriculteurs et à 1,8 milliard les intérêts dont il propose la prise en charge par l'État.",
+      "rawQuote": "",
+      "context": "Communiqué personnel de Nicolas Dupont-Aignan sur un plan de soutien agricole, 19 novembre 2026",
+      "source": "https://www.dupontaignan.fr/actualite/communique-plan-de-sauvetage-pour-notre-agriculture/",
+      "status": "indetermine",
+      "explanation": "Ces deux montants figurent dans le communiqué du candidat. Ils suggèrent un coût moyen d'intérêt de 3 % (1,8/60), mais aucune série bancaire exhaustive ni délimitation des emprunts agricoles n'a été vérifiée ici. La prise en charge annoncée est une proposition de programme, pas une dépense déjà réalisée.",
+      "evidence": "",
+      "evidenceLinks": [],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-lepen-pret-ukraine",
+      "personId": "marine-le-pen",
+      "date": "2026-11-19",
+      "theme": "Diplomatie",
+      "claim": "Marine Le Pen fait référence à un prêt de soutien de 90 milliards d'euros de l'Union européenne à l'Ukraine, déjà mis en œuvre en 2026.",
+      "rawQuote": "",
+      "context": "Communiqué signé Marine Le Pen à l'issue de sa rencontre avec l'ambassadeur d'Ukraine, 19 novembre 2026",
+      "source": "https://rassemblementnational.fr/communiques/rencontre-avec-lambassadeur-dukraine-en-france",
+      "status": "confirme",
+      "explanation": "Le Conseil de l'Union européenne a finalisé en avril 2026 le mécanisme de prêt de soutien de 90 milliards pour 2026-2027. La Commission européenne confirme des décaissements réalisés en 2026, dont 4,36 milliards le 5 novembre. Il ne faut pas confondre le plafond de 90 milliards avec la totalité des fonds déjà versés.",
+      "evidence": "https://www.consilium.europa.eu/fr/press/press-releases/2026/04/23/council-finalises-90-billion-support-loan-to-ukraine/",
+      "evidenceLinks": [
+        "https://www.consilium.europa.eu/fr/press/press-releases/2026/04/23/council-finalises-90-billion-support-loan-to-ukraine/",
+        "https://enlargement.ec.europa.eu/news/commission-disburses-eur436-billion-ukraine-under-eur90-billion-ukraine-support-loan-2026-11-05_en"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-tondelier-habitants-littoral",
+      "personId": "marine-tondelier",
+      "date": "2026-09-14",
+      "theme": "Environnement",
+      "claim": "Une publication cosignée par Marine Tondelier indique que près de huit millions de personnes vivent dans les communes littorales françaises.",
+      "rawQuote": "",
+      "context": "Présentation du livret politique sur les littoraux, cosigné avec Damien Girard et Mathilde Ollivier",
+      "source": "https://lesecologistes.fr/posts/3E8JJgNWbKiAsuex9f3Iij/des-littoraux-a-vivre-a-proteger-et-a-transmettre",
+      "status": "confirme",
+      "explanation": "Le Service des données et études statistiques du ministère de la Transition écologique recense huit millions de résidents permanents des communes littorales (hors estuaires) au 1er janvier 2021, soit environ 12 % de la population nationale. La publication politique reprend un ordre de grandeur officiel daté et ne mesure pas directement 2026.",
+      "evidence": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-mer-littoral/4-dynamique-demographique",
+      "evidenceLinks": [
+        "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-mer-littoral/4-dynamique-demographique"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
+    },
+    {
+      "id": "primary-20261122-tondelier-emplois-maritime",
+      "personId": "marine-tondelier",
+      "date": "2026-09-14",
+      "theme": "Emploi",
+      "claim": "Une publication cosignée par Marine Tondelier indique que plus de 500 000 emplois dépendent directement de l'océan et de l'économie maritime en France.",
+      "rawQuote": "",
+      "context": "Livret des Écologistes sur les littoraux cosigné par Marine Tondelier, Damien Girard et Mathilde Ollivier",
+      "source": "https://lesecologistes.fr/posts/3E8JJgNWbKiAsuex9f3Iij/des-littoraux-a-vivre-a-proteger-et-a-transmettre",
+      "status": "nuance",
+      "explanation": "Le Commissariat général au développement durable indique que plus d'un demi-million d'emplois sont directement liés à l'économie maritime, ce qui corrobore l'ordre de grandeur. Mais la notion politique d'emplois dépendant de l'océan est plus large que le périmètre statistique des activités maritimes ; ces délimitations ne doivent pas être confondues.",
+      "evidence": "https://www.notre-environnement.gouv.fr/actualites/breves/article/mer-et-littoral-un-atout-pour-la-france-et-une-grande-responsabilite",
+      "evidenceLinks": [
+        "https://www.notre-environnement.gouv.fr/actualites/breves/article/mer-et-littoral-un-atout-pour-la-france-et-une-grande-responsabilite"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (non validée)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
+        }
+      ]
     }
   ],
-  "lastUpdateDescription": "34 affirmations, dont 5 ajoutées le 22 novembre. Consultation et tableaux par défaut sur 30 jours glissants, archives préservées. Statuts éditoriaux préliminaires."
+  "lastUpdateDescription": "Ajout de 11 affirmations directement attribuées à des personnalités politiques, extraites de leurs discours, sites de parti et communiqués puis recoupées selon les sources disponibles, le 22 novembre 2026."
 }
