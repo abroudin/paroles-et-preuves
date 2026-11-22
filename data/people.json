@@ -14,7 +14,9 @@
       "role": "Président de la République",
       "initials": "EM",
       "source": "https://www.elysee.fr/",
-      "candidacy": "institution"
+      "candidacy": "institution",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmanuel%20Macron%20portrait%20(cropped).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Emmanuel%20Macron%20portrait%20(cropped).jpg"
     },
     {
       "id": "lecornu",
@@ -22,7 +24,9 @@
       "role": "Premier ministre",
       "initials": "SL",
       "source": "https://www.info.gouv.fr/personnalite/sebastien-lecornu",
-      "candidacy": "institution"
+      "candidacy": "institution",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9bastien%20Lecornu%2C%20June%202025%20(cropped).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:S%C3%A9bastien%20Lecornu%2C%20June%202025%20(cropped).jpg"
     },
     {
       "id": "nunez",
@@ -30,7 +34,9 @@
       "role": "Ministre de l’Intérieur",
       "initials": "LN",
       "source": "https://www.interieur.gouv.fr/ministres/laurent-nunez",
-      "candidacy": "institution"
+      "candidacy": "institution",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nunez%20Beauvau%20(cropped).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Nunez%20Beauvau%20(cropped).jpg"
     },
     {
       "id": "anasse-kazib",
@@ -85,7 +91,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://www.lemonde.fr/politique/article/2026/07/16/presidentielle-2027-bernard-cazeneuve-se-declare-candidat-dans-un-entretien-au-parisien-et-decline-la-primaire-socialiste_6723827_823448.html",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "A publiquement revendiqué une démarche présidentielle; degré de formalisation discuté selon les sources."
+      "candidacyNote": "A publiquement revendiqué une démarche présidentielle; degré de formalisation discuté selon les sources.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cazeneuve%20official%20PM%20portrait.png?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Cazeneuve%20official%20PM%20portrait.png"
     },
     {
       "id": "bruno-retailleau",
@@ -96,7 +104,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno%20Retailleau%20in%20December%202025.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Bruno%20Retailleau%20in%20December%202025.jpg"
     },
     {
       "id": "christian-collovati",
@@ -129,7 +139,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Lisnard.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:David%20Lisnard.jpg"
     },
     {
       "id": "delphine-batho",
@@ -140,7 +152,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20MEDDE%2021%2001.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Delphine%20Batho%20MEDDE%2021%2001.jpg"
     },
     {
       "id": "dominique-de-villepin",
@@ -151,7 +165,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-dominique-de-villepin-officiellement-candidat-a-l-elysee-445372",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/De%20Villepin%20PM%20portrait.png?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:De%20Villepin%20PM%20portrait.png"
     },
     {
       "id": "edouard-philippe",
@@ -162,7 +178,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard%20Philippe%203x4%20crop.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Edouard%20Philippe%203x4%20crop.jpg"
     },
     {
       "id": "eric-zemmour",
@@ -173,7 +191,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20d'%C3%89ric%20Zemmour%2C%20avril%202022%20(cropped).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Portrait%20d'%C3%89ric%20Zemmour%2C%20avril%202022%20(cropped).jpg"
     },
     {
       "id": "erwan-rohou",
@@ -195,7 +215,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fabien%20Roussel%202022.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Fabien%20Roussel%202022.jpg"
     },
     {
       "id": "florian-philippot",
@@ -206,7 +228,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Florian%20Philippot.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Florian%20Philippot.jpg"
     },
     {
       "id": "francis-lalanne",
@@ -228,7 +252,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Asselineau.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Asselineau.jpg"
     },
     {
       "id": "francois-ruffin",
@@ -239,7 +265,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "A indiqué qu'il pourrait retirer sa candidature si une solution commune émerge."
+      "candidacyNote": "A indiqué qu'il pourrait retirer sa candidature si une solution commune émerge.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ruffin.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Ruffin.jpg"
     },
     {
       "id": "gabriel-attal",
@@ -250,7 +278,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Attal%202025%20(3x4%20cropped).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Gabriel%20Attal%202025%20(3x4%20cropped).jpg"
     },
     {
       "id": "gilles-platret",
@@ -272,7 +302,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Lassalle%202022.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Jean%20Lassalle%202022.jpg"
     },
     {
       "id": "jean-francois-legendre",
@@ -294,7 +326,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20officiel%20JLM%2020-01-2026.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Portrait%20officiel%20JLM%2020-01-2026.jpg"
     },
     {
       "id": "joel-cheve",
@@ -327,7 +361,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Karim%20Bouamrane%20en%202026.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Karim%20Bouamrane%20en%202026.jpg"
     },
     {
       "id": "manolo-mlekuz",
@@ -349,7 +385,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Annonce publique, sous réserve de l'issue des procédures judiciaires en cours."
+      "candidacyNote": "Annonce publique, sous réserve de l'issue des procédures judiciaires en cours.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Marine%20Le%20Pen%202025%20(cropped).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Marine%20Le%20Pen%202025%20(cropped).jpg"
     },
     {
       "id": "marine-tondelier",
@@ -360,7 +398,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature annoncée, sous réserve du vote des militants écologistes annoncé pour décembre 2026."
+      "candidacyNote": "Candidature annoncée, sous réserve du vote des militants écologistes annoncé pour décembre 2026.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Marine%20Tondelier.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Marine%20Tondelier.jpg"
     },
     {
       "id": "mira-markovic",
@@ -382,7 +422,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natacha%20Polony%202013.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Natacha%20Polony%202013.jpg"
     },
     {
       "id": "nathalie-arthaud",
@@ -393,7 +435,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20(LO)%2019-05-2024%20(cropped).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Nathalie%20Arthaud%20(LO)%2019-05-2024%20(cropped).jpg"
     },
     {
       "id": "nicolas-dupont-aignan",
@@ -404,7 +448,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20Dupont-Aignan%202026.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Nicolas%20Dupont-Aignan%202026.jpg"
     },
     {
       "id": "olivier-becht",
@@ -415,7 +461,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Olivier%20Becht%20en%202026%20(cropped).png?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Olivier%20Becht%20en%202026%20(cropped).png"
     },
     {
       "id": "raphael-glucksmann",
@@ -426,7 +474,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/1720448398743%2020240708%20GLUCKSMANN%20Raphael%20FR%20006.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:1720448398743%2020240708%20GLUCKSMANN%20Raphael%20FR%20006.jpg"
     },
     {
       "id": "selma-labib",
@@ -459,7 +509,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Teddy%20Riner%202010.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Teddy%20Riner%202010.jpg"
     },
     {
       "id": "xavier-bertrand",
@@ -470,7 +522,9 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Xavier%20Bertrand.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Xavier%20Bertrand.jpg"
     },
     {
       "id": "bruno-le-maire",
@@ -481,7 +535,9 @@
       "candidacy": "envisagee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Évoqué dans les discussions, pas de candidature déclarée"
+      "candidacyNote": "Évoqué dans les discussions, pas de candidature déclarée",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno%20Le%20Maire%20in%202022.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Bruno%20Le%20Maire%20in%202022.jpg"
     },
     {
       "id": "christine-lagarde",
@@ -492,7 +548,9 @@
       "candidacy": "envisagee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Hypothèse évoquée dans la presse, pas de candidature déclarée"
+      "candidacyNote": "Hypothèse évoquée dans la presse, pas de candidature déclarée",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagarde%20ECB%20Portrait%202019.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Lagarde%20ECB%20Portrait%202019.jpg"
     },
     {
       "id": "elisabeth-borne",
@@ -503,7 +561,9 @@
       "candidacy": "envisagee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Hypothèse évoquée, candidature non déclarée"
+      "candidacyNote": "Hypothèse évoquée, candidature non déclarée",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Elisabeth%20Borne%20(50278235231).jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Elisabeth%20Borne%20(50278235231).jpg"
     },
     {
       "id": "francois-hollande",
@@ -514,7 +574,9 @@
       "candidacy": "envisagee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Choix non annoncé, attentiste selon les informations de presse"
+      "candidacyNote": "Choix non annoncé, attentiste selon les informations de presse",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Hollande%20headshot.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Hollande%20headshot.jpg"
     },
     {
       "id": "jordan-bardella",
@@ -547,7 +609,14 @@
       "candidacy": "envisagee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "N'exclut pas une candidature, aucune annonce formelle"
+      "candidacyNote": "N'exclut pas une candidature, aucune annonce formelle",
+      "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Breton%20EC%20Portrait%202019.jpg?width=240",
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Breton%20EC%20Portrait%202019.jpg"
     }
-  ]
+  ],
+  "portraits": {
+    "source": "Wikimedia Commons",
+    "count": 32,
+    "usage": "Les fichiers liés sont disponibles sur Wikimedia Commons. Auteur et conditions de réutilisation précisés dans la fiche de chaque photographie. Repli sur les initiales pour les profils non illustrés."
+  }
 }
