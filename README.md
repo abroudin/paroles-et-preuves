@@ -41,3 +41,13 @@ Références méthodologiques : [EFCSN](https://efcsn.com/code-of-standards/), [
 Les fiches de 24 responsables comportent désormais 38 liens vers des sites personnels, de campagne, de partis ou d'institutions, dont 5 comptes X explicitement identifiés. La liste est stockée dans le champ `officialSources` de [`data/people.json`](data/people.json) et affichée sur chaque profil concerné.
 
 La veille quotidienne recherche désormais les déclarations directement dans ces sources, puis les confronte aux données indépendantes. Les prises de parole d'un parti ne sont attribuées à un candidat que si son implication est explicite. Une publication X doit être accompagnée de son URL permanente et d'un texte et d'une date effectivement consultables : un lien vers un profil ne prouve pas à lui seul le contenu d'une publication. Les sources non vérifiées ne sont pas ajoutées comme comptes personnels.
+
+## Contrôles de publication et corrections
+
+- [Protocole de vérification](docs/PROTOCOLE_VERIFICATION.md) : contrôle obligatoire de l'attribution, de la vidéo/audio original lorsque les propos sont oraux, des contradictions entre la transcription et les autres publications primaires, puis des preuves indépendantes.
+- [Contrôle automatisé](scripts/validate-claims.mjs) : exécuter `node scripts/validate-claims.mjs` avant toute modification du corpus. Le contrôle vérifie aussi la cohérence de `index.html` avec les fichiers JSON.
+- [GitHub Actions](.github/workflows/validate-claims.yml) : le contrôle s'exécute lors des modifications de fichiers sensibles et doit être **vert** avant de considérer le contenu validé.
+- Les **44 fiches historiques** enregistrées le 22 novembre 2026 sont listées dans `data/legacy-claim-ids.json`. Elles sont **antérieures au protocole** et ne bénéficient pas rétroactivement de cette vérification. Un contrôle progressif est nécessaire.
+- **Correction du 22 novembre 2026** : l'affirmation attribuant à Jean-Luc Mélenchon une inversion des dates SMIG/SMIC a été retirée. La transcription consultée était en contradiction avec une publication du même orateur, et l'enregistrement oral n'avait pas été contrôlé.
+
+**Limite technique :** l'échec d'une action GitHub n'empêche pas, à lui seul, le déploiement du site GitHub Pages configuré depuis la branche `main`. Pour un blocage réel avant publication, il faut une règle de protection de branche exigeant le succès du contrôle et un processus de publication passant par les demandes de fusion, ou configurer le déploiement GitHub Pages pour dépendre d'une action de validation. Le validateur vérifie la présence et la cohérence des justificatifs, pas la véracité du contenu audiovisuel.
