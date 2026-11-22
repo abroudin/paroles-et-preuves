@@ -887,32 +887,6 @@
       ]
     },
     {
-      "id": "primary-20261122-melenchon-smig-smic",
-      "personId": "jean-luc-melenchon",
-      "date": "2026-11-07",
-      "theme": "Emploi",
-      "claim": "Jean-Luc Mélenchon situe la création du SMIC en 1950 et celle du SMIG en 1970.",
-      "rawQuote": "",
-      "context": "Discours de Jean-Luc Mélenchon au meeting du Bourget, retranscription publiée sur son blog",
-      "source": "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/",
-      "status": "contredit",
-      "explanation": "Les sigles sont inversés dans la retranscription : le SMIG a été créé en 1950 et le SMIC l'a remplacé en 1970. La chronologie est confirmée par le ministère du Travail et l'INSEE. Il s'agit d'une erreur factuelle ponctuelle dans le discours, pas d'une évaluation globale de la personne.",
-      "evidence": "https://travail-emploi.gouv.fr/histoire-du-salaire-minimum",
-      "evidenceLinks": [
-        "https://travail-emploi.gouv.fr/histoire-du-salaire-minimum",
-        "https://www.insee.fr/fr/statistiques/4277680"
-      ],
-      "reviewer": "Analyse documentaire préliminaire (non validée)",
-      "reviewedAt": "2026-11-22",
-      "createdAt": "2026-11-22",
-      "history": [
-        {
-          "at": "2026-11-22",
-          "action": "Nouvelle affirmation extraite d'une source primaire, attribuée au responsable. Recoupement documentaire préliminaire; validation éditoriale indépendante non effectuée."
-        }
-      ]
-    },
-    {
       "id": "primary-20261122-melenchon-pauvrete",
       "personId": "jean-luc-melenchon",
       "date": "2026-11-07",
@@ -1166,5 +1140,5 @@
       ]
     }
   ],
-  "lastUpdateDescription": "Ajout de 11 affirmations directement attribuées à des personnalités politiques, extraites de leurs discours, sites de parti et communiqués puis recoupées selon les sources disponibles, le 22 novembre 2026."
+  "lastUpdateDescription": "Correction éditoriale : retrait d’une affirmation mal attribuée au sujet des dates SMIG/SMIC. Le document de transcription comporte une erreur apparente, contredite par une publication publique du même orateur. Audit des sources en cours."
 }
