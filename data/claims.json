@@ -2,7 +2,7 @@
   "project": "Paroles & preuves",
   "snapshotDate": "2026-11-22",
   "status": "Analyses documentaires préliminaires, non validées par un comité de rédaction",
-  "version": 3,
+  "version": 4,
   "claims": [
     {
       "id": "pub-macron-104",
@@ -755,7 +755,137 @@
           "action": "Date ajustée pour éviter de confondre publication/relevé de source et jour de la déclaration."
         }
       ]
+    },
+    {
+      "id": "cand-melenchon-cotisations3",
+      "personId": "jean-luc-melenchon",
+      "date": "2026-11-16",
+      "theme": "Emploi",
+      "claim": "Jean-Luc Mélenchon affirme que les cotisations patronales seraient annulées jusqu'à pratiquement trois fois le SMIC et prises en charge par l'État.",
+      "context": "Grand débat TF1-LCI avec les Restos du Cœur, 16 novembre 2026",
+      "source": "https://www.tf1info.fr/politique/elections/presidentielle/verif-debat-sur-tf1-lci-en-association-avec-les-restos-du-coeur-salaries-au-smic-impots-aides-aux-associations-nous-avons-verifie-les-inexactitudes-des-candidats-au-sujet-de-la-precarite-2476393.html",
+      "status": "nuance",
+      "explanation": "La réduction générale dégressive unique en vigueur en 2026 concerne les salaires inférieurs à trois fois le SMIC, mais ne supprime pas l'ensemble des cotisations patronales sur toute cette plage. Le dispositif est dégressif et comprend un coefficient minimal. Le mot « annulées » généralise abusivement un allègement partiel ; le financement et les compensations entre administrations sont des questions distinctes.",
+      "evidence": "https://entreprendre.service-public.gouv.fr/vosdroits/F24542",
+      "evidenceLinks": [
+        "https://entreprendre.service-public.gouv.fr/vosdroits/F24542",
+        "https://entreprendre.service-public.gouv.fr/actualites/A18966"
+      ],
+      "rawQuote": "« jusqu’à pratiquement trois fois le Smic, les charges sont annulées et sont mises à la charge de l’État »",
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Déclaration ajoutée sur la base d'une source datée et d'une analyse documentaire préliminaire. Vérification humaine indépendante à réaliser."
+        }
+      ]
+    },
+    {
+      "id": "cand-lepen-bureaux6m",
+      "personId": "marine-le-pen",
+      "date": "2026-11-16",
+      "theme": "Logement",
+      "claim": "Marine Le Pen affirme qu'il existe environ six millions de mètres carrés de bureaux vides en Île-de-France.",
+      "context": "Grand débat TF1-LCI avec les Restos du Cœur, 16 novembre 2026",
+      "source": "https://aucrible2027.com/verification/fc-grand-debat-restos-2026-marine-le-pen-001/",
+      "status": "confirme",
+      "explanation": "L'Institut Paris Région recense 6,2 millions de m² de bureaux disponibles en Île-de-France fin 2025. La BPCE comptabilise 6,6 millions de m² disponibles à la fin du troisième trimestre 2026. L'ordre de grandeur de six millions est corroboré, mais le parc disponible n'est pas entièrement constitué de bâtiments convertibles en logements : il s'agit de surfaces commerciales disponibles.",
+      "evidence": "https://www.institutparisregion.fr/nos-travaux/publications/que-faire-des-bureaux-vacants/",
+      "evidenceLinks": [
+        "https://www.institutparisregion.fr/nos-travaux/publications/que-faire-des-bureaux-vacants/",
+        "https://solutionsimmobilieres.bpce.fr/publications/t3-2026-le-marche-locatif-des-bureaux-en-ile-de-france/"
+      ],
+      "rawQuote": "",
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Déclaration ajoutée sur la base d'une source datée et d'une analyse documentaire préliminaire. Vérification humaine indépendante à réaliser."
+        }
+      ]
+    },
+    {
+      "id": "cand-arthaud-subventions211",
+      "personId": "nathalie-arthaud",
+      "date": "2026-11-03",
+      "theme": "Économie",
+      "claim": "Le dépliant de campagne de Nathalie Arthaud présente 211 milliards d'euros comme des subventions distribuées par l'État aux entreprises.",
+      "context": "Dépliant de campagne de Lutte ouvrière daté du 3 novembre 2026",
+      "source": "https://lesprogrammes.org/candidats/nathalie-arthaud/",
+      "status": "nuance",
+      "explanation": "Le montant de 211 milliards d'euros est une estimation sénatoriale des aides publiques aux entreprises au sens large en 2023, incluant dépenses fiscales, exonérations sociales et opérations financières. Il ne correspond pas à 211 milliards de subventions effectivement versées par l'État. Le Sénat présente aussi une estimation de 108 milliards selon un périmètre plus restrictif.",
+      "evidence": "https://www.senat.fr/rap/r24-808-1/r24-808-18.html",
+      "evidenceLinks": [
+        "https://www.senat.fr/rap/r24-808-1/r24-808-18.html",
+        "https://lesprogrammes.org/verifications/"
+      ],
+      "rawQuote": "« 211 milliards d’euros de subventions distribués par l’État aux entreprises »",
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Déclaration ajoutée sur la base d'une source datée et d'une analyse documentaire préliminaire. Vérification humaine indépendante à réaliser."
+        }
+      ]
+    },
+    {
+      "id": "cand-ruffin-subventions211",
+      "personId": "francois-ruffin",
+      "date": "2026-11-06",
+      "theme": "Économie",
+      "claim": "François Ruffin désigne 211 milliards d'euros d'aides publiques aux entreprises comme le total des subventions.",
+      "context": "Interview « 8h30 franceinfo », 6 novembre 2026",
+      "source": "https://lesprogrammes.org/candidats/francois-ruffin/",
+      "status": "nuance",
+      "explanation": "Les 211 milliards d'euros du rapport de la commission d'enquête du Sénat concernent le soutien public au sens large en 2023. Ils comprennent prêts et garanties, dépenses fiscales et exonérations sociales, en plus des subventions proprement dites. Les aides au sens strict étaient estimées à 108 milliards dans ce rapport.",
+      "evidence": "https://www.senat.fr/rap/r24-808-1/r24-808-18.html",
+      "evidenceLinks": [
+        "https://www.senat.fr/rap/r24-808-1/r24-808-18.html",
+        "https://lesprogrammes.org/verifications/"
+      ],
+      "rawQuote": "« 211 milliards c'est le total des subventions »",
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Déclaration ajoutée sur la base d'une source datée et d'une analyse documentaire préliminaire. Vérification humaine indépendante à réaliser."
+        }
+      ]
+    },
+    {
+      "id": "cand-retailleau-defaillances71k",
+      "personId": "bruno-retailleau",
+      "date": "2026-11-20",
+      "theme": "Économie",
+      "claim": "Bruno Retailleau indique qu'il y a eu environ 71 000 défaillances d'entreprises en 2026.",
+      "context": "Entretien « Face aux petits patrons » sur LCI, 20 novembre 2026",
+      "source": "https://pourquijevote.com/transcripts/bec738c8-235a-4130-9681-43dc422901c6",
+      "status": "nuance",
+      "explanation": "La Banque de France relève 71 139 défaillances d'entreprises cumulées sur les douze mois achevés en septembre 2026 (publication du 6 novembre), et non un total pour l'année civile 2026 encore inachevée. Le chiffre est proche de la statistique publiée, mais le périmètre temporel doit être précisé. La source de la déclaration est une transcription secondaire à recouper avec la vidéo.",
+      "evidence": "https://www.banque-france.fr/fr/statistiques/entreprises/defaillances-dentreprises-2026-09",
+      "evidenceLinks": [
+        "https://www.banque-france.fr/fr/statistiques/entreprises/defaillances-dentreprises-2026-09",
+        "https://www.insee.fr/fr/statistiques/2015359"
+      ],
+      "rawQuote": "",
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Déclaration ajoutée sur la base d'une source datée et d'une analyse documentaire préliminaire. Vérification humaine indépendante à réaliser."
+        }
+      ]
     }
   ],
-  "lastUpdateDescription": "17 affirmations supplémentaires de 15 candidats ou personnalités pressenties ; analyses préliminaires sans validation éditoriale indépendante. Certaines dates de déclaration sont partielles."
+  "lastUpdateDescription": "34 affirmations, dont 5 ajoutées le 22 novembre. Consultation et tableaux par défaut sur 30 jours glissants, archives préservées. Statuts éditoriaux préliminaires."
 }
