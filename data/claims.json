@@ -2,7 +2,7 @@
   "project": "Paroles & preuves",
   "snapshotDate": "2026-11-22",
   "status": "Analyses documentaires préliminaires, non validées par un comité de rédaction",
-  "version": 2,
+  "version": 3,
   "claims": [
     {
       "id": "pub-macron-104",
@@ -308,6 +308,454 @@
           "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
         }
       ]
+    },
+    {
+      "id": "cand-melenchon-7m",
+      "personId": "jean-luc-melenchon",
+      "date": "2026-11-07",
+      "theme": "Élections",
+      "claim": "Jean-Luc Mélenchon affirme avoir déjà rassemblé plus de sept millions de suffrages à chacun des deux scrutins présidentiels précédents.",
+      "context": "Meeting au Bourget, lancement de son programme",
+      "rawQuote": "",
+      "source": "https://lcp.fr/actualites/je-vais-l-offrir-a-mes-grands-parents-au-meeting-de-melenchon-les-militants-repartent",
+      "status": "confirme",
+      "explanation": "Le ministère de l'Intérieur recense 7 059 951 voix en 2017 et 7 712 520 voix en 2022 au premier tour, sur son archive nationale. Dans les deux cas le seuil de sept millions est dépassé.",
+      "evidence": "https://www.archives-resultats-elections.interieur.gouv.fr/resultats/presidentielle-2017/FE.php",
+      "evidenceLinks": [
+        "https://www.archives-resultats-elections.interieur.gouv.fr/resultats/presidentielle-2017/FE.php",
+        "https://www.archives-resultats-elections.interieur.gouv.fr/resultats/presidentielle-2022/FE.php"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-lepen-500k",
+      "personId": "marine-le-pen",
+      "date": "2026-10-14",
+      "theme": "Immigration",
+      "claim": "Marine Le Pen affirme qu'environ 500 000 étrangers entrent légalement en France chaque année et que seulement 15 % ont un contrat de travail.",
+      "context": "Entretien au Financial Times",
+      "rawQuote": "",
+      "source": "https://www.ft.com/content/9acc4f6f-2faa-4ac1-aa7b-42166d677316",
+      "status": "nuance",
+      "explanation": "La comparaison regroupe des catégories administratives différentes. Les 500 000 ne constituent pas une mesure homogène des entrées annuelles de personnes, et la part des premiers titres de séjour pour motif professionnel ne décrit pas la situation d'emploi de tous les entrants. Cette comparaison, également utilisée par Jordan Bardella, a été examinée par TF1info : elle n'est pas représentative du travail des immigrés.",
+      "evidence": "https://www.tf1info.fr/politique/verif-seuls-10-des-immigres-entrent-ils-legalement-en-france-avec-du-travail-comme-le-dit-jordan-bardella-2461437.html",
+      "evidenceLinks": [
+        "https://www.tf1info.fr/politique/verif-seuls-10-des-immigres-entrent-ils-legalement-en-france-avec-du-travail-comme-le-dit-jordan-bardella-2461437.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-bardella-500k",
+      "personId": "jordan-bardella",
+      "date": "2026-09-01",
+      "theme": "Immigration",
+      "claim": "Jordan Bardella affirme que sur 500 000 personnes entrant légalement en France chaque année, seulement 50 000 ont un contrat de travail.",
+      "context": "Déclaration reprise et vérifiée par TF1info",
+      "rawQuote": "",
+      "source": "https://www.tf1info.fr/politique/verif-seuls-10-des-immigres-entrent-ils-legalement-en-france-avec-du-travail-comme-le-dit-jordan-bardella-2461437.html",
+      "status": "nuance",
+      "explanation": "La vérification distingue plusieurs séries statistiques qui ne peuvent pas être mises directement en rapport. Les 500 000 ne représentent pas un nombre homogène d'entrants légalement en France, et les 50 000 ne recensent pas toutes les personnes migrantes exerçant un emploi. TF1info conclut que le ratio mis en avant n'est pas représentatif.",
+      "evidence": "https://www.tf1info.fr/politique/verif-seuls-10-des-immigres-entrent-ils-legalement-en-france-avec-du-travail-comme-le-dit-jordan-bardella-2461437.html",
+      "evidenceLinks": [
+        "https://www.tf1info.fr/politique/verif-seuls-10-des-immigres-entrent-ils-legalement-en-france-avec-du-travail-comme-le-dit-jordan-bardella-2461437.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-attal-smic-ue",
+      "personId": "gabriel-attal",
+      "date": "2026-11-16",
+      "theme": "Emploi",
+      "claim": "Gabriel Attal affirme qu'il y a davantage de salariés au salaire minimum en France que dans les autres pays européens.",
+      "context": "Débat TF1/LCI organisé avec les Restos du Cœur",
+      "rawQuote": "",
+      "source": "https://www.tf1info.fr/politique/elections/presidentielle/verif-debat-sur-tf1-lci-en-association-avec-les-restos-du-coeur-salaries-au-smic-impots-aides-aux-associations-nous-avons-verifie-les-inexactitudes-des-candidats-au-sujet-de-la-precarite-2476393.html",
+      "status": "nuance",
+      "explanation": "D'après Eurostat, en 2022, 12,7 % des salariés français gagnaient moins de 105 % du salaire minimum national, contre 13 % en Bulgarie. La France se situe au deuxième rang dans le champ examiné, et non au premier. Ces données concernent le seuil de 105 % du minimum et la seule année 2022, pas exactement tous les salariés au SMIC en 2026.",
+      "evidence": "https://ec.europa.eu/eurostat/statistics-explained/index.php?lang=en&title=Minimum_wage_statistics",
+      "evidenceLinks": [
+        "https://ec.europa.eu/eurostat/statistics-explained/index.php?lang=en&title=Minimum_wage_statistics"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-attal-depenses",
+      "personId": "gabriel-attal",
+      "date": "2026-08-27",
+      "theme": "Économie",
+      "claim": "Gabriel Attal soutient que les dépenses de l'État ont diminué de 11 milliards d'euros en 2024 par rapport à 2023.",
+      "context": "Débat des candidats devant le Medef",
+      "rawQuote": "",
+      "source": "https://www.lemonde.fr/les-decodeurs/article/2026/09/04/gabriel-attal-arrange-son-bilan-budgetaire-de-2024-en-ce-debut-de-campagne-presidentielle_6765760_4355770.html",
+      "status": "nuance",
+      "explanation": "Les Décodeurs du Monde ont examiné la présentation faite par l'ancien Premier ministre. Le résultat dépend du périmètre budgétaire et du traitement de mesures exceptionnelles. Les dépenses de l'État ne doivent pas être confondues avec l'ensemble de la dépense publique ni avec une baisse durable attribuable au seul mandat de janvier à septembre 2024.",
+      "evidence": "https://www.lemonde.fr/les-decodeurs/article/2026/09/04/gabriel-attal-arrange-son-bilan-budgetaire-de-2024-en-ce-debut-de-campagne-presidentielle_6765760_4355770.html",
+      "evidenceLinks": [
+        "https://www.lemonde.fr/les-decodeurs/article/2026/09/04/gabriel-attal-arrange-son-bilan-budgetaire-de-2024-en-ce-debut-de-campagne-presidentielle_6765760_4355770.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-glucksmann-aides",
+      "personId": "raphael-glucksmann",
+      "date": "2026-11-16",
+      "theme": "Économie",
+      "claim": "Raphaël Glucksmann évalue à 200 milliards d'euros les aides publiques aux entreprises.",
+      "context": "Débat TF1/LCI avec les Restos du Cœur",
+      "rawQuote": "",
+      "source": "https://www.tf1info.fr/politique/elections/presidentielle/verif-debat-sur-tf1-lci-en-association-avec-les-restos-du-coeur-salaries-au-smic-impots-aides-aux-associations-nous-avons-verifie-les-inexactitudes-des-candidats-au-sujet-de-la-precarite-2476393.html",
+      "status": "nuance",
+      "explanation": "TF1info souligne que le total dépend de la définition des aides : subventions, exonérations de cotisations, dépenses fiscales et dispositifs de soutien ne forment pas un total unique. Le chiffre de 200 milliards ne doit pas être comparé à une estimation plus étroite de 110 milliards sans expliciter le champ et l'année. Les sources citées ne suffisent pas ici à valider une définition unique.",
+      "evidence": "https://www.tf1info.fr/politique/elections/presidentielle/verif-debat-sur-tf1-lci-en-association-avec-les-restos-du-coeur-salaries-au-smic-impots-aides-aux-associations-nous-avons-verifie-les-inexactitudes-des-candidats-au-sujet-de-la-precarite-2476393.html",
+      "evidenceLinks": [
+        "https://www.tf1info.fr/politique/elections/presidentielle/verif-debat-sur-tf1-lci-en-association-avec-les-restos-du-coeur-salaries-au-smic-impots-aides-aux-associations-nous-avons-verifie-les-inexactitudes-des-candidats-au-sujet-de-la-precarite-2476393.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-glucksmann-police",
+      "personId": "raphael-glucksmann",
+      "date": "2026-11",
+      "theme": "Sécurité",
+      "claim": "Raphaël Glucksmann affirme que la bureaucratie occupe la moitié du temps des policiers.",
+      "context": "Déclaration sur X examinée par TF1info le 19 novembre 2026 ; jour exact de publication initiale non établi",
+      "rawQuote": "",
+      "source": "https://www.tf1info.fr/societe/verif-est-il-vrai-que-la-bureaucratie-represente-50-du-temps-des-policiers-comme-l-explique-raphael-glucksmann-2476980.html",
+      "status": "indetermine",
+      "explanation": "Le ministère de l'Intérieur a indiqué à TF1info qu'aucun chiffre officiel ne permet d'établir cette proportion globale. Les missions et le travail administratif sont très variables selon les unités. Je ne sais pas confirmer le taux de 50 %.",
+      "evidence": "https://www.tf1info.fr/societe/verif-est-il-vrai-que-la-bureaucratie-represente-50-du-temps-des-policiers-comme-l-explique-raphael-glucksmann-2476980.html",
+      "evidenceLinks": [
+        "https://www.tf1info.fr/societe/verif-est-il-vrai-que-la-bureaucratie-represente-50-du-temps-des-policiers-comme-l-explique-raphael-glucksmann-2476980.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        },
+        {
+          "at": "2026-11-22",
+          "action": "Date ajustée pour éviter de confondre publication/relevé de source et jour de la déclaration."
+        }
+      ]
+    },
+    {
+      "id": "cand-tondelier-cocaine",
+      "personId": "marine-tondelier",
+      "date": "2026-11-16",
+      "theme": "Santé",
+      "claim": "Marine Tondelier affirme que la consommation de cocaïne en France a été multipliée par dix en trente ans.",
+      "context": "Entretien dans la Matinale de LCI",
+      "rawQuote": "",
+      "source": "https://www.tf1info.fr/politique/elections/presidentielle/verif-drogue-la-consommation-de-cocaine-en-france-a-t-elle-ete-multipliee-par-10-en-30-ans-2476169.html",
+      "status": "confirme",
+      "explanation": "L'OFDT mesure une hausse de la proportion des 18-64 ans ayant consommé de la cocaïne dans l'année, de 0,3 % en 1992 à 2,7 % en 2023, soit environ neuf fois sur les valeurs arrondies, décrit comme multiplié par dix dans ses publications. Il s'agit de la prévalence d'usage, pas du volume total consommé. Cette évolution seule ne prouve pas la causalité avancée sur la politique répressive.",
+      "evidence": "https://www.ofdt.fr/sites/ofdt/files/2024-06/tendances_164_eropp.pdf",
+      "evidenceLinks": [
+        "https://www.ofdt.fr/sites/ofdt/files/2024-06/tendances_164_eropp.pdf",
+        "https://www.tf1info.fr/politique/elections/presidentielle/verif-drogue-la-consommation-de-cocaine-en-france-a-t-elle-ete-multipliee-par-10-en-30-ans-2476169.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-zemmour-demographie",
+      "personId": "eric-zemmour",
+      "date": "2026-10-21",
+      "theme": "Démographie",
+      "claim": "Éric Zemmour affirme que, selon des chiffres de l'INSEE, la population extra-européenne deviendrait majoritaire en France d'ici 2060.",
+      "context": "Déclaration publique du 21 octobre, examinée par Les Surligneurs",
+      "rawQuote": "",
+      "source": "https://lessurligneurs.eu/theorie-du-grand-remplacement-le-peuple-francais-sera-t-il-en-minorite-en-france-en-2060/",
+      "status": "contredit",
+      "explanation": "Les Surligneurs expliquent que cette lecture ne correspond pas aux catégories démographiques ni aux projections publiées par l'INSEE. L'origine géographique supposée, la nationalité, le lieu de naissance et l'ascendance sont confondus. Aucune projection officielle ne permet de conclure à la majorité annoncée pour 2060.",
+      "evidence": "https://lessurligneurs.eu/theorie-du-grand-remplacement-le-peuple-francais-sera-t-il-en-minorite-en-france-en-2060/",
+      "evidenceLinks": [
+        "https://lessurligneurs.eu/theorie-du-grand-remplacement-le-peuple-francais-sera-t-il-en-minorite-en-france-en-2060/"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-retailleau-causalite",
+      "personId": "bruno-retailleau",
+      "date": "2026-10-28",
+      "theme": "Sécurité",
+      "claim": "Bruno Retailleau présente l'immigration qu'il qualifie de désordonnée comme liée à l'insécurité.",
+      "context": "Interview sur Europe 1 et CNews",
+      "rawQuote": "",
+      "source": "https://www.europe1.fr/politique/il-y-a-un-lien-entre-le-desordre-migratoire-et-le-desordre-securitaire-constate-bruno-retailleau-president-les-republicains-1188405",
+      "status": "indetermine",
+      "explanation": "L'affirmation emploie des catégories non définies (« désordre migratoire », « désordre sécuritaire »). Elle ne précise pas de période, de territoire, de population ni de mesure de causalité. Aucun verdict binaire ne peut être attribué sans définir et tester une hypothèse précise.",
+      "evidence": "https://www.lemonde.fr/les-decodeurs/article/2026/11/07/immigration-les-donnees-cles-pour-eclairer-le-debat_6808243_4355770.html",
+      "evidenceLinks": [
+        "https://www.lemonde.fr/les-decodeurs/article/2026/11/07/immigration-les-donnees-cles-pour-eclairer-le-debat_6808243_4355770.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-villepin-aidants",
+      "personId": "dominique-de-villepin",
+      "date": "2026-11-20",
+      "theme": "Santé",
+      "claim": "Le programme présidentiel de Dominique de Villepin fait état de 11 millions d'aidants en France.",
+      "context": "Présentation de 258 propositions de campagne, le 20 novembre",
+      "rawQuote": "",
+      "source": "https://lcp.fr/index.php/actualites/presidentielle-2027-que-retenir-des-258-propositions-du-programme-de-dominique-de",
+      "status": "attente",
+      "explanation": "La source LCP atteste l'emploi du chiffre de 11 millions dans le programme. Son périmètre n'est pas précisé : proches aidants réguliers, aidants déclarés ou périmètre plus large. La présente fiche ne contient pas une estimation statistique homogène et datée permettant de valider ce total.",
+      "evidence": "https://lcp.fr/index.php/actualites/presidentielle-2027-que-retenir-des-258-propositions-du-programme-de-dominique-de",
+      "evidenceLinks": [
+        "https://lcp.fr/index.php/actualites/presidentielle-2027-que-retenir-des-258-propositions-du-programme-de-dominique-de"
+      ],
+      "reviewer": "",
+      "reviewedAt": null,
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Déclaration recensée; contrôle non terminé."
+        }
+      ]
+    },
+    {
+      "id": "cand-nicolas-dette",
+      "personId": "nicolas-dupont-aignan",
+      "date": "2026-11",
+      "theme": "Économie",
+      "claim": "Nicolas Dupont-Aignan indique dans un document de campagne que la dette nationale atteint environ 3 600 milliards d'euros.",
+      "context": "Document de campagne, relevé en novembre 2026 ; date d'énonciation non établie",
+      "rawQuote": "",
+      "source": "https://stephane-lalut.com/formules-du-debat-sur-la-dette/",
+      "status": "confirme",
+      "explanation": "L'INSEE établit la dette publique au sens de Maastricht à 3 595,5 milliards d'euros à la fin du deuxième trimestre 2026. L'arrondi à 3 600 milliards est cohérent à cette date. Il ne démontre pas les explications ou attributions politiques de l'évolution de cette dette.",
+      "evidence": "https://www.insee.fr/fr/statistiques/9053525",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/9053525"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        },
+        {
+          "at": "2026-11-22",
+          "action": "Date ajustée pour éviter de confondre publication/relevé de source et jour de la déclaration."
+        }
+      ]
+    },
+    {
+      "id": "cand-lisnard-dette",
+      "personId": "david-lisnard",
+      "date": "2026-11",
+      "theme": "Économie",
+      "claim": "Un document de campagne de David Lisnard présente une dette de 3 417 milliards d'euros comme représentant environ 120 % du PIB.",
+      "context": "Document de campagne, relevé en novembre 2026 ; date d'énonciation non établie",
+      "rawQuote": "",
+      "source": "https://stephane-lalut.com/formules-du-debat-sur-la-dette/",
+      "status": "nuance",
+      "explanation": "Les 3 417,2 milliards d'euros correspondent au deuxième trimestre 2025 ; le ratio associé était d'environ 115,2 % du PIB. Au deuxième trimestre 2026, l'INSEE relève 3 595,5 milliards et 119,0 %. L'association de 3 417 milliards à 120 % mélange donc deux observations ou arrondit de manière excessive.",
+      "evidence": "https://www.insee.fr/fr/statistiques/9053525",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/9053525"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        },
+        {
+          "at": "2026-11-22",
+          "action": "Date ajustée pour éviter de confondre publication/relevé de source et jour de la déclaration."
+        }
+      ]
+    },
+    {
+      "id": "cand-philippot-dette",
+      "personId": "florian-philippot",
+      "date": "2026",
+      "theme": "Économie",
+      "claim": "Un document de campagne des Patriotes indique que la dette publique dépasse 3 305 milliards d'euros et 113 % du PIB.",
+      "context": "Programme des Patriotes, édition 2026-2027 ; jour précis de diffusion non établi",
+      "rawQuote": "",
+      "source": "https://www.lesprogrammes.org/candidats/florian-philippot/",
+      "status": "nuance",
+      "explanation": "Les seuils indiqués sont effectivement dépassés au deuxième trimestre 2026, selon l'INSEE (3 595,5 milliards d'euros et 119,0 % du PIB), mais le document ne précise pas la date de référence des chiffres. Il s'agit de bornes anciennes et non d'une photographie à jour de septembre 2026.",
+      "evidence": "https://www.insee.fr/fr/statistiques/9053525",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/9053525"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        },
+        {
+          "at": "2026-11-22",
+          "action": "Date ajustée pour éviter de confondre publication/relevé de source et jour de la déclaration."
+        }
+      ]
+    },
+    {
+      "id": "cand-rousseI-trump",
+      "personId": "fabien-roussel",
+      "date": "2026-10-30",
+      "theme": "Diplomatie",
+      "claim": "Fabien Roussel affirme que la guerre menée par Donald Trump en Iran lui rapporte personnellement des millions par jour.",
+      "context": "Entretien avec Le Figaro, émission Empreintes",
+      "rawQuote": "",
+      "source": "https://www.lefigaro.fr/flash-actu/le-pouvoir-corrompt-tout-comme-l-argent-fabien-roussel-se-confie-dans-empreintes-20261030",
+      "status": "indetermine",
+      "explanation": "Il s'agit d'une accusation chiffrée relative à un bénéfice financier personnel. Aucun montant, mécanisme, période ni document probant de ces gains quotidiens n'est fourni dans la source consultée. Je ne sais pas confirmer une telle affirmation.",
+      "evidence": "https://www.lefigaro.fr/flash-actu/le-pouvoir-corrompt-tout-comme-l-argent-fabien-roussel-se-confie-dans-empreintes-20261030",
+      "evidenceLinks": [
+        "https://www.lefigaro.fr/flash-actu/le-pouvoir-corrompt-tout-comme-l-argent-fabien-roussel-se-confie-dans-empreintes-20261030"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-asselineau-eubudget",
+      "personId": "francois-asselineau",
+      "date": "2026-11-01",
+      "theme": "Europe",
+      "claim": "François Asselineau indique que le cadre budgétaire pluriannuel de l'Union européenne se décide sur sept ans.",
+      "context": "Émission Le Meilleur Candidat (Sam Zirah), 1er novembre",
+      "rawQuote": "",
+      "source": "https://aucrible2027.com/fact-check/?candidat=francois-asselineau&methode=classement",
+      "status": "confirme",
+      "explanation": "Le cadre financier pluriannuel de l'UE fixe les plafonds budgétaires pour une période généralement de sept ans, par exemple 2021-2027. Les budgets annuels restent votés chaque année. L'énoncé est corroboré pour le cadre pluriannuel, mais ne signifie pas que toutes les contributions annuelles sont immuables.",
+      "evidence": "https://commission.europa.eu/strategy-and-policy/eu-budget/long-term-eu-budget/2021-2027_en",
+      "evidenceLinks": [
+        "https://commission.europa.eu/strategy-and-policy/eu-budget/long-term-eu-budget/2021-2027_en"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        }
+      ]
+    },
+    {
+      "id": "cand-ruffin-puy",
+      "personId": "francois-ruffin",
+      "date": "2026",
+      "theme": "Culture",
+      "claim": "François Ruffin estime la fréquentation annuelle du Puy du Fou en Vendée à environ trois millions de visiteurs.",
+      "context": "Déclaration au sujet du Puy du Fou rapportée en 2026 ; jour précis non établi",
+      "rawQuote": "",
+      "source": "https://lcp.fr/actualites/un-contre-puy-du-fou-dans-le-93-la-seine-saint-denis-lance-trois-spectacles-pour",
+      "status": "confirme",
+      "explanation": "Le site historique du Puy du Fou a accueilli environ trois millions de visiteurs en 2025, selon les chiffres de fréquentation rapportés par Mediacités. L'ordre de grandeur cité est donc corroboré pour cette année, indépendamment des autres parcs du groupe.",
+      "evidence": "https://www.mediacites.fr/decryptage/nantes/2026/05/07/puy-du-fou-des-resultats-mirifiques-mais-un-grand-tour-toujours-a-larret/",
+      "evidenceLinks": [
+        "https://www.mediacites.fr/decryptage/nantes/2026/05/07/puy-du-fou-des-resultats-mirifiques-mais-un-grand-tour-toujours-a-larret/"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire, en attente d'une validation éditoriale humaine."
+        },
+        {
+          "at": "2026-11-22",
+          "action": "Date ajustée pour éviter de confondre publication/relevé de source et jour de la déclaration."
+        }
+      ]
     }
-  ]
+  ],
+  "lastUpdateDescription": "17 affirmations supplémentaires de 15 candidats ou personnalités pressenties ; analyses préliminaires sans validation éditoriale indépendante. Certaines dates de déclaration sont partielles."
 }
