@@ -16,7 +16,14 @@
       "source": "https://www.elysee.fr/",
       "candidacy": "institution",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmanuel%20Macron%20portrait%20(cropped).jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Emmanuel%20Macron%20portrait%20(cropped).jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Emmanuel%20Macron%20portrait%20(cropped).jpg",
+      "officialSources": [
+        {
+          "kind": "institution",
+          "label": "Élysée, interventions officielles",
+          "url": "https://www.elysee.fr/emmanuel-macron"
+        }
+      ]
     },
     {
       "id": "lecornu",
@@ -26,7 +33,14 @@
       "source": "https://www.info.gouv.fr/personnalite/sebastien-lecornu",
       "candidacy": "institution",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9bastien%20Lecornu%2C%20June%202025%20(cropped).jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:S%C3%A9bastien%20Lecornu%2C%20June%202025%20(cropped).jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:S%C3%A9bastien%20Lecornu%2C%20June%202025%20(cropped).jpg",
+      "officialSources": [
+        {
+          "kind": "institution",
+          "label": "Gouvernement, interventions du Premier ministre",
+          "url": "https://www.info.gouv.fr/personnalite/sebastien-lecornu"
+        }
+      ]
     },
     {
       "id": "nunez",
@@ -36,7 +50,14 @@
       "source": "https://www.interieur.gouv.fr/ministres/laurent-nunez",
       "candidacy": "institution",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nunez%20Beauvau%20(cropped).jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Nunez%20Beauvau%20(cropped).jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Nunez%20Beauvau%20(cropped).jpg",
+      "officialSources": [
+        {
+          "kind": "institution",
+          "label": "Ministère de l’Intérieur",
+          "url": "https://www.interieur.gouv.fr/ministres/laurent-nunez"
+        }
+      ]
     },
     {
       "id": "anasse-kazib",
@@ -60,7 +81,14 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Équinoxe, actualités et programme",
+          "url": "https://parti-equinoxe.fr/actualites/"
+        }
+      ]
     },
     {
       "id": "augustin-billetdoux",
@@ -108,7 +136,19 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno%20Retailleau%20in%20December%202025.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Bruno%20Retailleau%20in%20December%202025.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Bruno%20Retailleau%20in%20December%202025.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Les Républicains, publications de Bruno Retailleau",
+          "url": "https://republicains.fr/actualites/m/bruno-retailleau/"
+        },
+        {
+          "kind": "x",
+          "label": "X, @BrunoRetailleau",
+          "url": "https://x.com/BrunoRetailleau"
+        }
+      ]
     },
     {
       "id": "christian-collovati",
@@ -145,7 +185,19 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Lisnard.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:David%20Lisnard.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:David%20Lisnard.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Nouvelle Énergie, interventions",
+          "url": "https://www.unenouvelleenergie.fr/actualites/"
+        },
+        {
+          "kind": "x",
+          "label": "X, @davidlisnard",
+          "url": "https://x.com/davidlisnard"
+        }
+      ]
     },
     {
       "id": "delphine-batho",
@@ -158,7 +210,19 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Delphine%20Batho%20MEDDE%2021%2001.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Delphine%20Batho%20MEDDE%2021%2001.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Delphine%20Batho%20MEDDE%2021%2001.jpg",
+      "officialSources": [
+        {
+          "kind": "site",
+          "label": "Delphine Batho, site officiel",
+          "url": "https://www.delphinebatho.fr/"
+        },
+        {
+          "kind": "parti",
+          "label": "Génération Écologie, actualités",
+          "url": "https://www.generationecologie.fr/sinformer/nos-positions/nos-actualites/"
+        }
+      ]
     },
     {
       "id": "dominique-de-villepin",
@@ -171,7 +235,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/De%20Villepin%20PM%20portrait.png?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:De%20Villepin%20PM%20portrait.png"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:De%20Villepin%20PM%20portrait.png",
+      "officialSources": [
+        {
+          "kind": "site",
+          "label": "Dominique de Villepin, campagne 2027",
+          "url": "https://villepin.fr/"
+        }
+      ]
     },
     {
       "id": "edouard-philippe",
@@ -184,7 +255,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard%20Philippe%203x4%20crop.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Edouard%20Philippe%203x4%20crop.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Edouard%20Philippe%203x4%20crop.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Horizons, actualités",
+          "url": "https://horizonsleparti.fr/"
+        }
+      ]
     },
     {
       "id": "eric-zemmour",
@@ -197,7 +275,19 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20d'%C3%89ric%20Zemmour%2C%20avril%202022%20(cropped).jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Portrait%20d'%C3%89ric%20Zemmour%2C%20avril%202022%20(cropped).jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Portrait%20d'%C3%89ric%20Zemmour%2C%20avril%202022%20(cropped).jpg",
+      "officialSources": [
+        {
+          "kind": "site",
+          "label": "Éric Zemmour, site personnel",
+          "url": "https://www.ericzemmour.fr/"
+        },
+        {
+          "kind": "parti",
+          "label": "Reconquête, actualités et vidéos",
+          "url": "https://www.parti-reconquete.fr/"
+        }
+      ]
     },
     {
       "id": "erwan-rohou",
@@ -221,7 +311,24 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fabien%20Roussel%202022.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Fabien%20Roussel%202022.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Fabien%20Roussel%202022.jpg",
+      "officialSources": [
+        {
+          "kind": "site",
+          "label": "Fabien Roussel, campagne présidentielle",
+          "url": "https://www.fabienroussel2027.fr/"
+        },
+        {
+          "kind": "parti",
+          "label": "PCF, actualités",
+          "url": "https://www.pcf.fr/"
+        },
+        {
+          "kind": "x",
+          "label": "X, @Fabien_Roussel",
+          "url": "https://x.com/Fabien_Roussel"
+        }
+      ]
     },
     {
       "id": "florian-philippot",
@@ -234,7 +341,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Florian%20Philippot.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Florian%20Philippot.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Florian%20Philippot.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Les Patriotes, site officiel",
+          "url": "https://les-patriotes.fr/"
+        }
+      ]
     },
     {
       "id": "francis-lalanne",
@@ -260,7 +374,19 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Asselineau.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Asselineau.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Asselineau.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "UPR, actualités",
+          "url": "https://upr.fr/"
+        },
+        {
+          "kind": "parti",
+          "label": "UPR TV, interventions",
+          "url": "https://upr.fr/upr-tv"
+        }
+      ]
     },
     {
       "id": "francois-ruffin",
@@ -273,7 +399,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature retirée le 21 novembre 2026, sans soutien annoncé à un autre candidat. Les déclarations de sa période de campagne restent archivées.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ruffin.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Ruffin.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Ruffin.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Debout !, publications",
+          "url": "https://debout.fr/"
+        }
+      ]
     },
     {
       "id": "gabriel-attal",
@@ -286,7 +419,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Attal%202025%20(3x4%20cropped).jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Gabriel%20Attal%202025%20(3x4%20cropped).jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Gabriel%20Attal%202025%20(3x4%20cropped).jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Renaissance, interventions et actualités",
+          "url": "https://parti-renaissance.fr/"
+        }
+      ]
     },
     {
       "id": "gilles-platret",
@@ -312,7 +452,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Lassalle%202022.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Jean%20Lassalle%202022.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Jean%20Lassalle%202022.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Résistons !, site officiel",
+          "url": "https://resistons-france.fr/actualites/"
+        }
+      ]
     },
     {
       "id": "jean-francois-legendre",
@@ -336,7 +483,29 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20officiel%20JLM%2020-01-2026.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Portrait%20officiel%20JLM%2020-01-2026.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Portrait%20officiel%20JLM%2020-01-2026.jpg",
+      "officialSources": [
+        {
+          "kind": "site",
+          "label": "Blog de Jean-Luc Mélenchon",
+          "url": "https://melenchon.fr/"
+        },
+        {
+          "kind": "site",
+          "label": "Site de campagne 2027",
+          "url": "https://melenchon2027.fr/"
+        },
+        {
+          "kind": "parti",
+          "label": "La France insoumise, actualités",
+          "url": "https://lafranceinsoumise.fr/actualites/"
+        },
+        {
+          "kind": "x",
+          "label": "X, @JLMelenchon",
+          "url": "https://x.com/JLMelenchon"
+        }
+      ]
     },
     {
       "id": "joel-cheve",
@@ -399,7 +568,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Annonce publique, sous réserve de l'issue des procédures judiciaires en cours.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Marine%20Le%20Pen%202025%20(cropped).jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Marine%20Le%20Pen%202025%20(cropped).jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Marine%20Le%20Pen%202025%20(cropped).jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "RN, publications de Marine Le Pen",
+          "url": "https://rassemblementnational.fr/membre/marine-le-pen"
+        }
+      ]
     },
     {
       "id": "marine-tondelier",
@@ -412,7 +588,19 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature annoncée, sous réserve du vote des militants écologistes annoncé pour décembre 2026.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Marine%20Tondelier.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Marine%20Tondelier.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Marine%20Tondelier.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Les Écologistes, publications",
+          "url": "https://lesecologistes.fr/posts"
+        },
+        {
+          "kind": "parti",
+          "label": "Marine Tondelier, interventions",
+          "url": "https://lesecologistes.fr/trombinoscope/RqKQhLKtZmERCT0kmqPoF/marine-tondelier"
+        }
+      ]
     },
     {
       "id": "mira-markovic",
@@ -423,7 +611,14 @@
       "candidacy": "annoncee",
       "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages."
+      "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Parti animaliste, candidate 2027",
+          "url": "https://parti-animaliste.fr/mira-markovic-2027"
+        }
+      ]
     },
     {
       "id": "natacha-polony",
@@ -449,7 +644,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nathalie%20Arthaud%20(LO)%2019-05-2024%20(cropped).jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Nathalie%20Arthaud%20(LO)%2019-05-2024%20(cropped).jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Nathalie%20Arthaud%20(LO)%2019-05-2024%20(cropped).jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Lutte ouvrière, campagne 2027",
+          "url": "https://www.lutte-ouvriere.org/portail/rubrique/presidentielle-2027-la-campagne-de-nathalie-arthaud.html"
+        }
+      ]
     },
     {
       "id": "nicolas-dupont-aignan",
@@ -462,7 +664,24 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20Dupont-Aignan%202026.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Nicolas%20Dupont-Aignan%202026.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Nicolas%20Dupont-Aignan%202026.jpg",
+      "officialSources": [
+        {
+          "kind": "site",
+          "label": "Nicolas Dupont-Aignan, campagne 2027",
+          "url": "https://www.dupontaignan.fr/"
+        },
+        {
+          "kind": "parti",
+          "label": "Debout la France, actualités",
+          "url": "https://www.debout-la-france.fr/actualite/"
+        },
+        {
+          "kind": "x",
+          "label": "X, @dupontaignan",
+          "url": "https://x.com/dupontaignan"
+        }
+      ]
     },
     {
       "id": "olivier-becht",
@@ -488,7 +707,14 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Candidature recensée dans les sources journalistiques citées, sous réserve des parrainages.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/1720448398743%2020240708%20GLUCKSMANN%20Raphael%20FR%20006.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:1720448398743%2020240708%20GLUCKSMANN%20Raphael%20FR%20006.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:1720448398743%2020240708%20GLUCKSMANN%20Raphael%20FR%20006.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "Place publique, actualités",
+          "url": "https://place-publique.eu/posts"
+        }
+      ]
     },
     {
       "id": "selma-labib",
@@ -605,7 +831,19 @@
       "candidacyUpdated": "2026-11-22",
       "candidacyNote": "Option conditionnelle si Marine Le Pen ne peut se présenter",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan%20Bardella%202024.jpg?width=240",
-      "photoSource": "https://commons.wikimedia.org/wiki/File:Jordan%20Bardella%202024.jpg"
+      "photoSource": "https://commons.wikimedia.org/wiki/File:Jordan%20Bardella%202024.jpg",
+      "officialSources": [
+        {
+          "kind": "parti",
+          "label": "RN, publications de Jordan Bardella",
+          "url": "https://rassemblementnational.fr/membre/jordan-bardella"
+        },
+        {
+          "kind": "parti",
+          "label": "RN, discours",
+          "url": "https://rassemblementnational.fr/discours"
+        }
+      ]
     },
     {
       "id": "matthieu-pigasse",
@@ -640,5 +878,12 @@
     "unknownCount": 8,
     "usage": "Les portraits identifiés sont sourcés dans photoSource. Le navigateur peut remplacer les anciennes adresses par une miniature de l'article Wikipédia au nom exact. Pour les absences ou échecs de chargement, les initiales restent visibles."
   },
-  "statusNote": "François Ruffin a retiré sa candidature le 21 novembre 2026; les déclarations précédentes restent présentes dans le corpus."
+  "statusNote": "François Ruffin a retiré sa candidature le 21 novembre 2026; les déclarations précédentes restent présentes dans le corpus.",
+  "lastSourceReview": "2026-11-22",
+  "primarySourcePolicy": "Les sites de campagne, sites des partis, communiqués, discours, vidéos et comptes personnels authentifiés servent à attribuer une déclaration. Leur contenu ne constitue jamais une preuve indépendante que l'affirmation est vraie. Les publications d'un parti ne sont attribuées à une personne que si la personne est explicitement identifiée comme auteur ou locuteur. Un post X n'est retenu qu'avec un lien permanent, la date, le compte et les mots vérifiables. Si X est inaccessible, n'inventer ni tweet ni extrait.",
+  "primarySourceCoverage": {
+    "peopleWithDirectSources": 24,
+    "sourceLinks": 38,
+    "socialAccounts": 5
+  }
 }
