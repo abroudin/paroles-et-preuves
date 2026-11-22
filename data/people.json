@@ -262,10 +262,10 @@
       "role": "Debout !",
       "party": "Debout !",
       "initials": "FR",
-      "candidacy": "annoncee",
-      "candidacySource": "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932",
+      "candidacy": "retiree",
+      "candidacySource": "https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de",
       "candidacyUpdated": "2026-11-22",
-      "candidacyNote": "A indiqué qu'il pourrait retirer sa candidature si une solution commune émerge.",
+      "candidacyNote": "Candidature retirée le 21 novembre 2026, sans soutien annoncé à un autre candidat. Les déclarations de sa période de campagne restent archivées.",
       "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ruffin.jpg?width=240",
       "photoSource": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%20Ruffin.jpg"
     },
@@ -618,5 +618,6 @@
     "source": "Wikimedia Commons",
     "count": 32,
     "usage": "Les fichiers liés sont disponibles sur Wikimedia Commons. Auteur et conditions de réutilisation précisés dans la fiche de chaque photographie. Repli sur les initiales pour les profils non illustrés."
-  }
+  },
+  "statusNote": "François Ruffin a retiré sa candidature le 21 novembre 2026; les déclarations précédentes restent présentes dans le corpus."
 }
