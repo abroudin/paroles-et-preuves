@@ -35,3 +35,9 @@ Les catégories « Confirmé », « À nuancer », « Contredit », « Indéterm
 Hébergement statique GitHub Pages sur `main`. Une veille quotidienne recherche les nouvelles déclarations, vérifie les sources et tente de les ajouter au corpus historique sans supprimer les anciennes, puis de synchroniser les fichiers du dépôt ; cette tâche ne garantit ni l'exhaustivité ni une publication automatique en cas d'indisponibilité de GitHub. Le dépôt et l'historique des modifications restent les sources de vérité.
 
 Références méthodologiques : [EFCSN](https://efcsn.com/code-of-standards/), [Full Fact](https://fullfact.org/about/how-we-fact-check/).
+
+## Sources primaires surveillées
+
+Les fiches de 24 responsables comportent désormais 38 liens vers des sites personnels, de campagne, de partis ou d'institutions, dont 5 comptes X explicitement identifiés. La liste est stockée dans le champ `officialSources` de [`data/people.json`](data/people.json) et affichée sur chaque profil concerné.
+
+La veille quotidienne recherche désormais les déclarations directement dans ces sources, puis les confronte aux données indépendantes. Les prises de parole d'un parti ne sont attribuées à un candidat que si son implication est explicite. Une publication X doit être accompagnée de son URL permanente et d'un texte et d'une date effectivement consultables : un lien vers un profil ne prouve pas à lui seul le contenu d'une publication. Les sources non vérifiées ne sont pas ajoutées comme comptes personnels.
