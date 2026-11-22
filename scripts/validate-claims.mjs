@@ -52,7 +52,7 @@ for (const c of bundle.claims) {
   if (!statuses.has(c.status)) error('statut inconnu');
   if (!https(c.source)) error('source d’origine non https');
   if (c.status !== 'attente' && !hasText(c.explanation, 35)) error('justification insuffisante');
-  if (c.status !== 'attente' && ![c.evidence,...(c.evidenceLinks || [])].some(https))
+  if (['confirme','nuance','contredit'].includes(c.status) && ![c.evidence,...(c.evidenceLinks || [])].some(https))
     error('absence de référence probante complémentaire');
 
   const oldStatus = old.get(c.id);
