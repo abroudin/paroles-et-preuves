@@ -6,13 +6,13 @@ Observatoire documentaire public d'affirmations factuelles de responsables polit
 
 ## Périmètre
 
-Le site affiche **par défaut les 30 derniers jours de déclarations** (fenêtre glissante calculée selon l'heure de Paris). Il conserve un accès au corpus complet, y compris aux affirmations plus anciennes ou dont le jour exact n'a pas été établi.
+Le site affiche **la totalité des affirmations recensées, sans limite temporelle ni purge automatique**. Les dates de déclarations sont conservées pour contextualiser les affirmations et les recherches quotidiennes ajoutent progressivement de nouvelles fiches au corpus cumulatif.
 
-**Situation au 22 novembre 2026 :** 50 profils, 34 affirmations recensées au total, dont 25 avec une date de déclaration comprise entre le 24 octobre et le 22 novembre 2026 inclus. Le corpus reste **partiel et non exhaustif** ; il ne répertorie pas toutes les interventions des 50 personnes.
+**Situation au 22 novembre 2026 :** 50 profils et 34 affirmations recensées au total, sans filtre de période. Le corpus reste **partiel et non exhaustif** ; il ne répertorie pas toutes les interventions des 50 personnes.
 
 Les profils distinguent candidatures annoncées, envisagées ou conditionnelles, retirées et responsables institutionnels. François Ruffin a retiré sa candidature le 21 novembre 2026 ([LCP, 21 novembre 2026](https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de)).
 
-Les fiches contiennent la date (parfois partielle), le contexte, la source d'origine, une explication des limites et des références documentaires. Les analyses ont été préparées avec assistance IA et n'ont pas été relues par une rédaction indépendante. Les 30 jours représentent la **période de déclaration**, pas la date de publication des analyses.
+Les fiches contiennent la date (parfois partielle), le contexte, la source d'origine, une explication des limites et des références documentaires. Les analyses ont été préparées avec assistance IA et n'ont pas été relues par une rédaction indépendante. La date de déclaration et celle de la vérification sont deux informations distinctes.
 
 ## Données
 
@@ -20,7 +20,7 @@ Les fiches contiennent la date (parfois partielle), le contexte, la source d'ori
 - [data/claims.json](data/claims.json) : affirmations et analyses.
 - [index.html](index.html) : interface statique avec les données intégrées.
 
-Ces fichiers sont synchronisés lors de la publication. Les 32 portraits paramétrés utilisent des liens Wikimedia Commons avec repli sur des initiales, et une fiche de crédits photographiques par profil lorsqu'une photographie est configurée.
+Ces fichiers sont synchronisés lors de la publication. Les 42 portraits référencés utilisent des liens vers Wikimedia Commons, et le navigateur peut remplacer une ancienne adresse d'image par une miniature liée à l'article exact de Wikipédia. En cas d'absence d'image ou d'échec de chargement, les initiales restent affichées. La disponibilité effective de chaque image dépend de Wikimedia. Les sources et fiches de licence sont indiquées dans les profils lorsqu'elles sont disponibles.
 
 ## Consultation
 
@@ -32,6 +32,6 @@ Les catégories « Confirmé », « À nuancer », « Contredit », « Indéterm
 
 ## Mise à jour
 
-Hébergement statique GitHub Pages sur `main`. Une veille quotidienne recherche les nouvelles déclarations, vérifie les sources puis tente de synchroniser les fichiers du dépôt ; cette tâche ne garantit ni l'exhaustivité ni une publication automatique en cas d'indisponibilité de GitHub. Le dépôt et l'historique des modifications restent les sources de vérité.
+Hébergement statique GitHub Pages sur `main`. Une veille quotidienne recherche les nouvelles déclarations, vérifie les sources et tente de les ajouter au corpus historique sans supprimer les anciennes, puis de synchroniser les fichiers du dépôt ; cette tâche ne garantit ni l'exhaustivité ni une publication automatique en cas d'indisponibilité de GitHub. Le dépôt et l'historique des modifications restent les sources de vérité.
 
 Références méthodologiques : [EFCSN](https://efcsn.com/code-of-standards/), [Full Fact](https://fullfact.org/about/how-we-fact-check/).
