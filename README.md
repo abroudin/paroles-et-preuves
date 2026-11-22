@@ -6,15 +6,25 @@ Prototype public d'observatoire des affirmations factuelles de responsables poli
 
 ## Données intégrées
 
-- **12 affirmations recensées**, datées des **19 et 20 novembre 2026**.
-- Périmètre initial : Emmanuel Macron (6), Sébastien Lecornu (3), Laurent Nuñez (3).
-- Répartition des **analyses préliminaires** : 3 confirmées, 3 à nuancer, 3 indéterminées, 3 à vérifier.
-- Chaque fiche indique le contexte, la date, la source de la déclaration, une explication et, selon les cas, plusieurs sources complémentaires.
-- **Dernière révision : 22 novembre 2026.** Les résultats ne sont pas automatiquement mis à jour.
+- **50 profils publics**, au 22 novembre 2026 : 40 candidatures annoncées, 7 candidatures envisagées ou conditionnelles et 3 responsables institutionnels.
+- **12 affirmations documentées** pour Emmanuel Macron (6), Sébastien Lecornu (3), Laurent Nuñez (3), issues des 19 et 20 novembre 2026. Aucune affirmation vérifiée n'a encore été enregistrée pour les candidats suivis.
+- Répartition des **analyses préliminaires** sur ces 12 affirmations : 3 confirmées, 3 à nuancer, 3 indéterminées, 3 à vérifier.
+- Les candidatures ne constituent **pas la liste définitive des candidats** au sens électoral : les 500 parrainages restent nécessaires. L'inventaire peut être incomplet et les statuts évoluer.
+- Les dates, sources des annonces et réserves propres à certaines candidatures figurent dans les fiches.
 
-Le fichier [`data/claims.json`](data/claims.json) contient l'instantané exploitable par machine. L'application inclut également cet instantané dans `index.html`, pour afficher les fiches sans serveur ni connexion à une API.
+Fichiers publics :
+- [`data/people.json`](data/people.json) : liste et statut des 50 personnes avec sources et date de mise à jour ;
+- [`data/claims.json`](data/claims.json) : 12 affirmations et leurs analyses documentaires.
+
+Le code du site contient aussi ces données initiales pour fonctionner sans serveur. Pour une mise à jour publique, les fichiers JSON et le code doivent rester synchronisés.
 
 **Important :** les analyses sont des travaux documentaires préliminaires assistés par IA, **non validés par une rédaction indépendante**. Elles ne constituent pas des verdicts éditoriaux définitifs. Le corpus n'est pas exhaustif et ne permet pas de comparer la fiabilité des responsables politiques entre eux.
+
+## Indicateurs par personne
+
+Une fiche de personne affiche le **nombre d'affirmations recensées**, la **part de ce corpus analysée** et les **effectifs par conclusion** (confirmé, à nuancer, contredit, indéterminé, en attente). Il n'existe **pas de note personnelle** de type 7/10 ou 72/100 : l'échantillonnage actuel serait trop petit et hétérogène pour établir une mesure sérieuse de la fiabilité des propos.
+
+Pour les personnes sans affirmation contrôlée, l'interface affiche **non évalué**, jamais une note de zéro.
 
 ## Comprendre les états
 
