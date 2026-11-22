@@ -1,27 +1,41 @@
 # Paroles & preuves
 
-Prototype d'un observatoire sourcé des affirmations factuelles des responsables politiques français.
+Prototype public d'observatoire des affirmations factuelles de responsables politiques français.
 
-## Objet
+**Site :** https://abroudin.github.io/paroles-et-preuves/
 
-Cette démonstration permet de consulter un registre d'affirmations, de filtrer les déclarations, de documenter les sources et les conclusions, et d'importer ou d'exporter des données au format JSON.
+## Données intégrées
 
-Les conclusions doivent être fondées sur des sources vérifiables et validées humainement. Aucune déclaration n'est automatiquement qualifiée de vraie ou de fausse par le prototype.
+- **12 affirmations recensées**, datées des **19 et 20 novembre 2026**.
+- Périmètre initial : Emmanuel Macron (6), Sébastien Lecornu (3), Laurent Nuñez (3).
+- Répartition des **analyses préliminaires** : 3 confirmées, 3 à nuancer, 3 indéterminées, 3 à vérifier.
+- Chaque fiche indique le contexte, la date, la source de la déclaration, une explication et, selon les cas, plusieurs sources complémentaires.
+- **Dernière révision : 22 novembre 2026.** Les résultats ne sont pas automatiquement mis à jour.
 
-## Limitations
+Le fichier [`data/claims.json`](data/claims.json) contient l'instantané exploitable par machine. L'application inclut également cet instantané dans `index.html`, pour afficher les fiches sans serveur ni connexion à une API.
 
-- Application statique, sans serveur ni base de données partagée.
-- Les saisies sont enregistrées uniquement dans le navigateur utilisé (stockage local).
-- Pas de collecte automatique des déclarations, ni de vérification automatique.
-- Les données de démonstration ne constituent pas une analyse exhaustive des interventions publiques.
+**Important :** les analyses sont des travaux documentaires préliminaires assistés par IA, **non validés par une rédaction indépendante**. Elles ne constituent pas des verdicts éditoriaux définitifs. Le corpus n'est pas exhaustif et ne permet pas de comparer la fiabilité des responsables politiques entre eux.
 
-## Déploiement GitHub Pages
+## Comprendre les états
 
-Site statique destiné à être publié depuis la branche `main`, dossier `/ (root)`.
+- **Confirmé** : corroboration des éléments retenus et limites décrites.
+- **À nuancer** : contexte, dates ou définition de l'indicateur changent la portée du propos.
+- **Indéterminé** : éléments publiquement accessibles insuffisants pour conclure.
+- **À vérifier** : vérification non finalisée.
+- **Contredit** : catégorie disponible, sans cas retenu à ce jour.
 
-1. Créer un dépôt **public** `paroles-et-preuves` sur le compte `abroudin`.
-2. Ajouter `index.html`, `README.md` et `.nojekyll` à la racine, puis valider les modifications.
-3. Dans `Settings > Pages`, choisir `Deploy from a branch`, `main`, `/ (root)`, puis enregistrer.
-4. Adresse attendue une fois GitHub Pages activé : https://abroudin.github.io/paroles-et-preuves/
+Une annonce, une prévision ou une intention ne doivent pas être confondues avec un résultat déjà observé. La réalité d'une annonce est distincte de son éventuelle réalisation.
 
-Aucune modification de `abroudin.github.io` n'est nécessaire.
+## Fonctionnement et confidentialité
+
+Site statique : HTML, CSS et JavaScript. La publication s'effectue via GitHub Pages, sur la branche `main`, dossier racine.
+
+Les affirmations saisies ou éditées dans l'interface et les importations JSON sont stockées **localement dans le navigateur** (`localStorage`). Ces changements ne sont **pas diffusés au public** et ne modifient pas ce dépôt. Les fiches initiales publiques sont rechargées à partir du code déployé; les ajouts personnels locaux sont conservés. La remise à zéro efface les ajouts locaux.
+
+L'application ne réalise **ni collecte automatique** des déclarations, **ni vérification automatique** en temps réel. Pour actualiser publiquement le corpus, modifier le fichier `index.html` et maintenir `data/claims.json` cohérent.
+
+## Références de méthode
+
+- European Fact-Checking Standards Network : https://efcsn.com/code-of-standards/
+- Full Fact : https://fullfact.org/about/how-we-fact-check/
+- Assemblée nationale, données publiques : https://data.assemblee-nationale.fr/
