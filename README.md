@@ -1,51 +1,51 @@
 # Paroles & preuves
 
-Prototype public d'observatoire des affirmations factuelles de responsables politiques français.
+Observatoire documentaire public des affirmations factuelles de responsables politiques français.
 
 **Site :** https://abroudin.github.io/paroles-et-preuves/
 
-## Données intégrées
+## Corpus du 22 novembre 2026
 
-- **50 profils publics**, au 22 novembre 2026 : 40 candidatures annoncées, 7 candidatures envisagées ou conditionnelles et 3 responsables institutionnels.
-- **12 affirmations documentées** pour Emmanuel Macron (6), Sébastien Lecornu (3), Laurent Nuñez (3), issues des 19 et 20 novembre 2026. Aucune affirmation vérifiée n'a encore été enregistrée pour les candidats suivis.
-- Répartition des **analyses préliminaires** sur ces 12 affirmations : 3 confirmées, 3 à nuancer, 3 indéterminées, 3 à vérifier.
-- Les candidatures ne constituent **pas la liste définitive des candidats** au sens électoral : les 500 parrainages restent nécessaires. L'inventaire peut être incomplet et les statuts évoluer.
-- Les dates, sources des annonces et réserves propres à certaines candidatures figurent dans les fiches.
+- 50 profils : 40 candidatures annoncées, 7 envisagées ou conditionnelles et 3 responsables institutionnels. Il ne s'agit pas de la liste officielle définitive des candidats à la présidentielle 2027.
+- 29 affirmations publiques recensées, dont 17 concernant 15 candidats ou personnalités pressenties et 12 concernant Emmanuel Macron, Sébastien Lecornu et Laurent Nuñez.
+- Analyses préliminaires fondées sur les sources indiquées dans les fiches, non validées indépendamment par une rédaction. Certaines déclarations restent à vérifier.
+- 32 portraits provenant de Wikimedia Commons. Le nom du fichier et le lien vers sa fiche (auteur, crédit, licence) sont associés à chaque profil concerné. Pour les autres profils, les initiales restent affichées.
 
-Fichiers publics :
-- [`data/people.json`](data/people.json) : liste et statut des 50 personnes avec sources et date de mise à jour ;
-- [`data/claims.json`](data/claims.json) : 12 affirmations et leurs analyses documentaires.
+Fichiers de données : [`data/people.json`](data/people.json) et [`data/claims.json`](data/claims.json).
 
-Le code du site contient aussi ces données initiales pour fonctionner sans serveur. Pour une mise à jour publique, les fichiers JSON et le code doivent rester synchronisés.
+## Interface
 
-**Important :** les analyses sont des travaux documentaires préliminaires assistés par IA, **non validés par une rédaction indépendante**. Elles ne constituent pas des verdicts éditoriaux définitifs. Le corpus n'est pas exhaustif et ne permet pas de comparer la fiabilité des responsables politiques entre eux.
+Le site est **en consultation uniquement** : aucun formulaire d'ajout ou de modification de verdict, aucun bouton d'import ou d'export de données.
 
-## Indicateurs par personne
+Pages :
+- Vue générale ;
+- Affirmations, recherche et filtres ;
+- Responsables politiques, avec portrait et source du statut de candidature ;
+- Comparatif des faits, donnant le nombre de déclarations étudiées et les effectifs par conclusion ;
+- Méthodologie.
 
-Une fiche de personne affiche le **nombre d'affirmations recensées**, la **part de ce corpus analysée** et les **effectifs par conclusion** (confirmé, à nuancer, contredit, indéterminé, en attente). Il n'existe **pas de note personnelle** de type 7/10 ou 72/100 : l'échantillonnage actuel serait trop petit et hétérogène pour établir une mesure sérieuse de la fiabilité des propos.
+Le tableau comparatif ne classe pas les personnes par « honnêteté ». Les déclarations recensées ne forment ni un inventaire exhaustif ni un échantillon homogène ; les résultats ne permettent donc pas de mesurer la fiabilité individuelle des responsables, et encore moins une intention de mentir.
 
-Pour les personnes sans affirmation contrôlée, l'interface affiche **non évalué**, jamais une note de zéro.
+## Statuts des affirmations
 
-## Comprendre les états
+- **Confirmé** : le fait examiné est corroboré par les éléments cités ;
+- **À nuancer** : le contexte, le champ ou les dates restreignent la portée de l'énoncé ;
+- **Contredit** : les éléments cités contredisent l'affirmation ;
+- **Indéterminé** : les sources ne permettent pas de trancher ;
+- **À vérifier** : vérification non menée à son terme.
 
-- **Confirmé** : corroboration des éléments retenus et limites décrites.
-- **À nuancer** : contexte, dates ou définition de l'indicateur changent la portée du propos.
-- **Indéterminé** : éléments publiquement accessibles insuffisants pour conclure.
-- **À vérifier** : vérification non finalisée.
-- **Contredit** : catégorie disponible, sans cas retenu à ce jour.
+Ces descriptions portent sur les propositions factuelles, pas sur l'intégrité des personnes.
 
-Une annonce, une prévision ou une intention ne doivent pas être confondues avec un résultat déjà observé. La réalité d'une annonce est distincte de son éventuelle réalisation.
+## Sources et licences des portraits
 
-## Fonctionnement et confidentialité
+Les portraits ne sont pas intégrés au dépôt. Ils sont affichés depuis Wikimedia Commons, en fonction de l'accessibilité des fichiers et sous réserve de leur disponibilité. Les fiches de crédits et licences sont accessibles depuis les profils et sont répertoriées dans `data/people.json` dans le champ `photoSource`.
 
-Site statique : HTML, CSS et JavaScript. La publication s'effectue via GitHub Pages, sur la branche `main`, dossier racine.
+**Attention aux licences :** les conditions varient selon l'image (CC BY, CC BY-SA, CC0, etc.). Les crédits complets et obligations éventuelles d'attribution sont détaillés sur la page Wikimedia Commons de chaque fichier.
 
-Les affirmations saisies ou éditées dans l'interface et les importations JSON sont stockées **localement dans le navigateur** (`localStorage`). Ces changements ne sont **pas diffusés au public** et ne modifient pas ce dépôt. Les fiches initiales publiques sont rechargées à partir du code déployé; les ajouts personnels locaux sont conservés. La remise à zéro efface les ajouts locaux.
+## Déploiement et mise à jour
 
-L'application ne réalise **ni collecte automatique** des déclarations, **ni vérification automatique** en temps réel. Pour actualiser publiquement le corpus, modifier le fichier `index.html` et maintenir `data/claims.json` cohérent.
+Page statique (HTML, CSS et JavaScript), hébergée via GitHub Pages à partir de la branche `main`.
 
-## Références de méthode
+Les déclarations et les profils sont initialisés directement dans `index.html`, en cohérence avec les fichiers JSON publics. Il n'y a ni collecte automatique ni recherche documentaire en temps réel. Chaque mise à jour publique nécessite une modification du code et des fichiers de données, avec contrôle des sources.
 
-- European Fact-Checking Standards Network : https://efcsn.com/code-of-standards/
-- Full Fact : https://fullfact.org/about/how-we-fact-check/
-- Assemblée nationale, données publiques : https://data.assemblee-nationale.fr/
+Sources méthodologiques : [European Fact-Checking Standards Network](https://efcsn.com/code-of-standards/) et [Full Fact](https://fullfact.org/about/how-we-fact-check/).
