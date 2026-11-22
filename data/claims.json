@@ -1,0 +1,313 @@
+{
+  "project": "Paroles & preuves",
+  "snapshotDate": "2026-11-22",
+  "status": "Analyses documentaires préliminaires, non validées par un comité de rédaction",
+  "version": 2,
+  "claims": [
+    {
+      "id": "pub-macron-104",
+      "personId": "macron",
+      "claim": "La Grande Exposition du Fabriqué en France de 2026 compte 104 lauréats.",
+      "rawQuote": "« les 104 lauréats »",
+      "date": "2026-11-20",
+      "theme": "Économie",
+      "context": "Discours d'inauguration de la 6e édition à l'Élysée",
+      "source": "https://www.elysee.fr/emmanuel-macron/2026/11/20/inauguration-de-la-grande-exposition-du-fabrique-en-france-2026",
+      "status": "confirme",
+      "explanation": "Le discours du 20 novembre mentionne 104 lauréats. L'Élysée avait publié le 22 octobre la sélection de 104 produits/services retenus par le jury national. Chiffre administratif corroboré entre deux documents institutionnels, sans audit externe du nombre d'exposants.",
+      "evidence": "https://www.elysee.fr/emmanuel-macron/2026/10/22/la-grande-exposition-du-fabrique-en-france-revient-en-2026",
+      "evidenceLinks": [
+        "https://www.elysee.fr/emmanuel-macron/2026/10/22/la-grande-exposition-du-fabrique-en-france-revient-en-2026"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-macron-apprentis",
+      "personId": "macron",
+      "claim": "La France compte plus d'un million d'apprentis, contre environ 426 000 en 2017.",
+      "rawQuote": "",
+      "date": "2026-11-20",
+      "theme": "Emploi",
+      "context": "Discours d'inauguration de la Grande Exposition du Fabriqué en France",
+      "source": "https://www.elysee.fr/emmanuel-macron/2026/11/20/inauguration-de-la-grande-exposition-du-fabrique-en-france-2026",
+      "status": "nuance",
+      "explanation": "L'effectif de 2017 était de 425 953 apprentis au 31 décembre (rapport parlementaire). La DEPP mesure 1 020 400 apprentis fin 2025 et la DARES 1 017 500 contrats en cours à la même date. L'ordre de grandeur et le doublement sont corroborés. En revanche, ces séries ne démontrent pas à elles seules un effectif supérieur à un million précisément le 20 novembre 2026. Attention à ne pas confondre apprentis présents et nouveaux contrats annuels.",
+      "evidence": "https://www.education.gouv.fr/depp/l-apprentissage-au-31-decembre-2025-une-baisse-des-effectifs-de-28-par-rapport-2024-505299",
+      "evidenceLinks": [
+        "https://www.education.gouv.fr/depp/l-apprentissage-au-31-decembre-2025-une-baisse-des-effectifs-de-28-par-rapport-2024-505299",
+        "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B1745-tIII-a47.html",
+        "https://dares.travail-emploi.gouv.fr/donnees/le-contrat-dapprentissage"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-macron-eti",
+      "personId": "macron",
+      "claim": "La France est passée d'environ 5 400 entreprises de taille intermédiaire en 2017 à environ 7 500 aujourd'hui.",
+      "rawQuote": "",
+      "date": "2026-11-20",
+      "theme": "Économie",
+      "context": "Discours d'inauguration de la Grande Exposition du Fabriqué en France",
+      "source": "https://www.elysee.fr/emmanuel-macron/2026/11/20/inauguration-de-la-grande-exposition-du-fabrique-en-france-2026",
+      "status": "nuance",
+      "explanation": "L'INSEE recense 5 400 ETI en 2017 et près de 7 500 en 2023 (7 296 selon la série détaillée), dans les secteurs principalement marchands non agricoles et non financiers. La progression est documentée, mais le chiffre de 7 500 cité comme actuel en novembre 2026 correspond à une observation statistique antérieure. Il ne s'agit pas d'un décompte vérifié pour 2026.",
+      "evidence": "https://www.insee.fr/fr/statistiques/4255712",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/4255712",
+        "https://www.insee.fr/fr/statistiques/8675639",
+        "https://www.insee.fr/fr/statistiques/2016091"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-macron-usines",
+      "personId": "macron",
+      "claim": "Le solde cumulé des ouvertures et fermetures d'usines depuis 2017 serait de +300.",
+      "rawQuote": "« 300 ouvertures d'usines sur notre territoire en net »",
+      "date": "2026-11-20",
+      "theme": "Économie",
+      "context": "Discours d'inauguration de la Grande Exposition du Fabriqué en France",
+      "source": "https://www.elysee.fr/emmanuel-macron/2026/11/20/inauguration-de-la-grande-exposition-du-fabrique-en-france-2026",
+      "status": "indetermine",
+      "explanation": "Le baromètre industriel de la Direction générale des Entreprises relève un solde de +19 ouvertures et extensions en 2025, contre +88 en 2024. Il ne permet pas, isolément, d'attester le cumul de +300 depuis 2017 : périmètre (sites de plus de 20 salariés), définition d'extension et années étudiées doivent être harmonisés. Je ne sais pas confirmer le solde cumulé avancé sans reconstituer la série complète.",
+      "evidence": "https://www.entreprises.gouv.fr/espace-presse/barometre-industriel-de-letat-dossier-de-presse",
+      "evidenceLinks": [
+        "https://www.entreprises.gouv.fr/espace-presse/barometre-industriel-de-letat-dossier-de-presse"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-macron-emplois",
+      "personId": "macron",
+      "claim": "Depuis mi-2017, 2,5 millions d'emplois auraient été créés, dont 1,8 million d'emplois salariés.",
+      "rawQuote": "",
+      "date": "2026-11-20",
+      "theme": "Emploi",
+      "context": "Discours d'inauguration de la Grande Exposition du Fabriqué en France",
+      "source": "https://www.elysee.fr/emmanuel-macron/2026/11/20/inauguration-de-la-grande-exposition-du-fabrique-en-france-2026",
+      "status": "attente",
+      "explanation": "Le discours donne ces deux chiffres, mais la présente sélection n'a pas reconstitué une série INSEE homogène de mi-2017 à mi-2026, couvrant salariés et non-salariés. L'INSEE mesure 30,5 millions de personnes en emploi fin 2025, et +1,2 million d'emplois salariés depuis fin 2019. Ces périodes différentes ne suffisent pas à valider les chiffres cités.",
+      "evidence": "https://www.insee.fr/fr/statistiques/8733039",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/8733039"
+      ],
+      "reviewer": "",
+      "reviewedAt": null,
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Affirmation recensée le 22 novembre 2026. Vérification indépendante à poursuivre."
+        }
+      ]
+    },
+    {
+      "id": "pub-macron-industrie",
+      "personId": "macron",
+      "claim": "Le nombre d'emplois industriels aurait augmenté d'environ 100 000 depuis 2017.",
+      "rawQuote": "",
+      "date": "2026-11-20",
+      "theme": "Emploi",
+      "context": "Discours d'inauguration de la Grande Exposition du Fabriqué en France",
+      "source": "https://www.elysee.fr/emmanuel-macron/2026/11/20/inauguration-de-la-grande-exposition-du-fabrique-en-france-2026",
+      "status": "attente",
+      "explanation": "Le discours affirme une hausse proche de 100 000. Les statistiques INSEE sur l'emploi industriel au deuxième trimestre 2026 doivent être comparées à une base 2017 de même champ (emploi salarié, intérim, branche et secteur). Sans cette comparaison harmonisée, pas de verdict fiable.",
+      "evidence": "https://www.insee.fr/fr/statistiques/9039152",
+      "evidenceLinks": [
+        "https://www.insee.fr/fr/statistiques/9039152"
+      ],
+      "reviewer": "",
+      "reviewedAt": null,
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Affirmation recensée le 22 novembre 2026. Vérification indépendante à poursuivre."
+        }
+      ]
+    },
+    {
+      "id": "pub-lecornu-cybervote",
+      "personId": "lecornu",
+      "claim": "Le projet de loi sur la résilience des infrastructures critiques et la cybersécurité a été adopté par l'Assemblée nationale le 17 novembre 2026.",
+      "rawQuote": "",
+      "date": "2026-11-19",
+      "theme": "Sécurité",
+      "context": "Présentation du plan gouvernemental de cybersécurité",
+      "source": "https://www.info.gouv.fr/discours/cybersecurite-l-etat-renforce-la-protection-des-francais",
+      "status": "confirme",
+      "explanation": "L'Assemblée nationale confirme que le texte a été adopté en première lecture le mardi 17 novembre 2026. Il ne s'agit pas d'une promulgation définitive : la suite de la procédure parlementaire reste distincte de ce vote.",
+      "evidence": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/adoption-du-projet-de-loi-relatif-a-la-resilience-des-infrastructures-critiques-et-au-renforcement-de-la-cybersecurite",
+      "evidenceLinks": [
+        "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/adoption-du-projet-de-loi-relatif-a-la-resilience-des-infrastructures-critiques-et-au-renforcement-de-la-cybersecurite"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-lecornu-cartographie",
+      "personId": "lecornu",
+      "claim": "La cartographie des connexions entre les systèmes informatiques des ministères serait réalisée à 90 %.",
+      "rawQuote": "",
+      "date": "2026-11-19",
+      "theme": "Sécurité",
+      "context": "Présentation du plan gouvernemental de cybersécurité",
+      "source": "https://www.info.gouv.fr/discours/cybersecurite-l-etat-renforce-la-protection-des-francais",
+      "status": "indetermine",
+      "explanation": "Le compte rendu gouvernemental attribue ce taux de 90 % au travail de la DINUM, sans publier dans les sources consultées le dénominateur, la date exacte de mesure ni un rapport d'audit indépendant. Je ne sais pas confirmer le pourcentage. Le futur objectif d'achever cette cartographie ne constitue pas un résultat déjà atteint.",
+      "evidence": "https://www.info.gouv.fr/actualite/cybersecurite-de-nouvelles-mesures-pour-proteger-le-quotidien-des-francais",
+      "evidenceLinks": [
+        "https://www.info.gouv.fr/actualite/cybersecurite-de-nouvelles-mesures-pour-proteger-le-quotidien-des-francais"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-lecornu-iran",
+      "personId": "lecornu",
+      "claim": "Les services français attribuent à l'Iran une cyberattaque contre des installations frigorifiques.",
+      "rawQuote": "",
+      "date": "2026-11-19",
+      "theme": "Sécurité",
+      "context": "Présentation d'un plan de cybersécurité à Paris",
+      "source": "https://www.info.gouv.fr/discours/cybersecurite-l-etat-renforce-la-protection-des-francais",
+      "status": "indetermine",
+      "explanation": "La déclaration rapporte une attribution des services français. Elle ne prouve pas publiquement la responsabilité de l'Iran : les éléments techniques ou judiciaires indépendants nécessaires à la confirmer n'ont pas été identifiés dans les sources consultées. Il faut distinguer attribution par l'État et preuve accessible au public.",
+      "evidence": "https://www.info.gouv.fr/actualite/cybersecurite-de-nouvelles-mesures-pour-proteger-le-quotidien-des-francais",
+      "evidenceLinks": [
+        "https://www.info.gouv.fr/actualite/cybersecurite-de-nouvelles-mesures-pour-proteger-le-quotidien-des-francais"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-nunez-effectifs",
+      "personId": "nunez",
+      "claim": "Environ 70 000 policiers et gendarmes devaient être mobilisés pour la journée de manifestations du 21 novembre.",
+      "rawQuote": "",
+      "date": "2026-11-20",
+      "theme": "Sécurité",
+      "context": "Entretien RMC/BFMTV Face-à-Face, annonce du dispositif de maintien de l'ordre",
+      "source": "https://www.dailymotion.com/video/xby8ofa",
+      "status": "attente",
+      "explanation": "Le ministre a annoncé ce volume prévu et il a été repris par plusieurs médias le 20 novembre. Cela établit la réalité de l'annonce, pas le nombre effectivement mobilisé le 21 novembre. Aucun décompte indépendant des effectifs déployés n'a été retenu pour cette fiche.",
+      "evidence": "https://www.tf1info.fr/societe/colere-sociale-70-000-policiers-et-gendarmes-deployes-pour-l-acte-vi-gilets-jaunes-samedi-21-novembre-annonce-laurent-nunez-2477186.html",
+      "evidenceLinks": [
+        "https://www.tf1info.fr/societe/colere-sociale-70-000-policiers-et-gendarmes-deployes-pour-l-acte-vi-gilets-jaunes-samedi-21-novembre-annonce-laurent-nunez-2477186.html"
+      ],
+      "reviewer": "",
+      "reviewedAt": null,
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Affirmation recensée le 22 novembre 2026. Vérification indépendante à poursuivre."
+        }
+      ]
+    },
+    {
+      "id": "pub-nunez-manifestants",
+      "personId": "nunez",
+      "claim": "Le ministère de l'Intérieur a dénombré 106 000 manifestants le samedi 14 novembre 2026.",
+      "rawQuote": "",
+      "date": "2026-11-20",
+      "theme": "Sécurité",
+      "context": "Télégramme aux préfets avant les mobilisations du 21 novembre, cité par l'AFP",
+      "source": "https://www.leparisien.fr/societe/agir-avec-la-plus-grande-fermete-laurent-nunez-appelle-les-prefets-a-la-vigilance-avant-une-nouvelle-mobilisation-20-11-2026-2U3DW6B65NFZLKWXUJQLVHRX7Q.php",
+      "status": "nuance",
+      "explanation": "Le chiffre de 106 000 correspond bien au décompte officiel du ministère pour 137 actions. Il ne faut pas le présenter comme le nombre incontestable de tous les participants : il s'agit d'une estimation administrative, qui peut diverger d'autres comptages et dont l'incertitude n'est pas fournie ici.",
+      "evidence": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/bilan-de-mobilisation-du-14-novembre-2026-participation-en-baisse-des-incidents-violents-dans-de",
+      "evidenceLinks": [
+        "https://www.interieur.gouv.fr/actualites/communiques-de-presse/bilan-de-mobilisation-du-14-novembre-2026-participation-en-baisse-des-incidents-violents-dans-de"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    },
+    {
+      "id": "pub-nunez-huitans",
+      "personId": "nunez",
+      "claim": "La mobilisation du 21 novembre 2026 se déroule huit ans après le début du mouvement des Gilets jaunes.",
+      "rawQuote": "",
+      "date": "2026-11-20",
+      "theme": "Sécurité",
+      "context": "Télégramme ministériel cité par l'AFP avant les mobilisations du 21 novembre",
+      "source": "https://www.leparisien.fr/societe/agir-avec-la-plus-grande-fermete-laurent-nunez-appelle-les-prefets-a-la-vigilance-avant-une-nouvelle-mobilisation-20-11-2026-2U3DW6B65NFZLKWXUJQLVHRX7Q.php",
+      "status": "confirme",
+      "explanation": "La première journée nationale des Gilets jaunes a eu lieu le 17 novembre 2018. Le 21 novembre 2026 est donc quatre jours après le huitième anniversaire. Il s'agit d'une approximation de calendrier correcte, pas de la date anniversaire exacte.",
+      "evidence": "https://catalogue.ina.fr/doc/TV-RADIO/DO_S1292391_001/gilets-jaunes-comment-tout-a-commence",
+      "evidenceLinks": [
+        "https://catalogue.ina.fr/doc/TV-RADIO/DO_S1292391_001/gilets-jaunes-comment-tout-a-commence",
+        "https://www.lemonde.fr/societe/article/2018/11/16/17-novembre-comment-se-profile-la-mobilisation-generale-des-gilets-jaunes_5384408_3224.html"
+      ],
+      "reviewer": "Analyse documentaire préliminaire (IA, non relue)",
+      "reviewedAt": "2026-11-22",
+      "createdAt": "2026-11-22",
+      "history": [
+        {
+          "at": "2026-11-22",
+          "action": "Analyse documentaire préliminaire établie le 22 novembre 2026. À faire relire avant utilisation éditoriale."
+        }
+      ]
+    }
+  ]
+}
