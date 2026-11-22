@@ -1,0 +1,33 @@
+name: Contrôle des affirmations
+
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'data/claims.json'
+      - 'data/people.json'
+      - 'data/legacy-claim-ids.json'
+      - 'scripts/validate-claims.mjs'
+      - '.github/workflows/validate-claims.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'data/claims.json'
+      - 'data/people.json'
+      - 'data/legacy-claim-ids.json'
+      - 'scripts/validate-claims.mjs'
+      - '.github/workflows/validate-claims.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validation:
+    name: Cohérence et traçabilité
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/validate-claims.mjs
