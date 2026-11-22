@@ -1,0 +1,182 @@
+{
+  "frozenAt": "2026-11-22",
+  "purpose": "Inventaire des fiches antérieures à l'instauration du contrôle de provenance. Leur présence ici n'atteste pas de leur validité éditoriale. Toute nouvelle fiche doit fournir sourceAudit.",
+  "entries": [
+    {
+      "id": "pub-macron-104",
+      "status": "confirme"
+    },
+    {
+      "id": "pub-macron-apprentis",
+      "status": "nuance"
+    },
+    {
+      "id": "pub-macron-eti",
+      "status": "nuance"
+    },
+    {
+      "id": "pub-macron-usines",
+      "status": "indetermine"
+    },
+    {
+      "id": "pub-macron-emplois",
+      "status": "attente"
+    },
+    {
+      "id": "pub-macron-industrie",
+      "status": "attente"
+    },
+    {
+      "id": "pub-lecornu-cybervote",
+      "status": "confirme"
+    },
+    {
+      "id": "pub-lecornu-cartographie",
+      "status": "indetermine"
+    },
+    {
+      "id": "pub-lecornu-iran",
+      "status": "indetermine"
+    },
+    {
+      "id": "pub-nunez-effectifs",
+      "status": "attente"
+    },
+    {
+      "id": "pub-nunez-manifestants",
+      "status": "nuance"
+    },
+    {
+      "id": "pub-nunez-huitans",
+      "status": "confirme"
+    },
+    {
+      "id": "cand-melenchon-7m",
+      "status": "confirme"
+    },
+    {
+      "id": "cand-lepen-500k",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-bardella-500k",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-attal-smic-ue",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-attal-depenses",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-glucksmann-aides",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-glucksmann-police",
+      "status": "indetermine"
+    },
+    {
+      "id": "cand-tondelier-cocaine",
+      "status": "confirme"
+    },
+    {
+      "id": "cand-zemmour-demographie",
+      "status": "contredit"
+    },
+    {
+      "id": "cand-retailleau-causalite",
+      "status": "indetermine"
+    },
+    {
+      "id": "cand-villepin-aidants",
+      "status": "attente"
+    },
+    {
+      "id": "cand-nicolas-dette",
+      "status": "confirme"
+    },
+    {
+      "id": "cand-lisnard-dette",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-philippot-dette",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-rousseI-trump",
+      "status": "indetermine"
+    },
+    {
+      "id": "cand-asselineau-eubudget",
+      "status": "confirme"
+    },
+    {
+      "id": "cand-ruffin-puy",
+      "status": "confirme"
+    },
+    {
+      "id": "cand-melenchon-cotisations3",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-lepen-bureaux6m",
+      "status": "confirme"
+    },
+    {
+      "id": "cand-arthaud-subventions211",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-ruffin-subventions211",
+      "status": "nuance"
+    },
+    {
+      "id": "cand-retailleau-defaillances71k",
+      "status": "nuance"
+    },
+    {
+      "id": "primary-20261122-melenchon-pauvrete",
+      "status": "indetermine"
+    },
+    {
+      "id": "primary-20261122-melenchon-dette1200",
+      "status": "nuance"
+    },
+    {
+      "id": "primary-20261122-lisnard-adherents",
+      "status": "indetermine"
+    },
+    {
+      "id": "primary-20261122-lisnard-pensions",
+      "status": "confirme"
+    },
+    {
+      "id": "primary-20261122-asselineau-ue12",
+      "status": "nuance"
+    },
+    {
+      "id": "primary-20261122-asselineau-dette3600",
+      "status": "indetermine"
+    },
+    {
+      "id": "primary-20261122-dupont-credit-agri",
+      "status": "indetermine"
+    },
+    {
+      "id": "primary-20261122-lepen-pret-ukraine",
+      "status": "confirme"
+    },
+    {
+      "id": "primary-20261122-tondelier-habitants-littoral",
+      "status": "confirme"
+    },
+    {
+      "id": "primary-20261122-tondelier-emplois-maritime",
+      "status": "nuance"
+    }
+  ]
+}
