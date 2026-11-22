@@ -1,51 +1,37 @@
 # Paroles & preuves
 
-Observatoire documentaire public des affirmations factuelles de responsables politiques français.
+Observatoire documentaire public d'affirmations factuelles de responsables politiques français.
 
 **Site :** https://abroudin.github.io/paroles-et-preuves/
 
-## Corpus du 22 novembre 2026
+## Périmètre
 
-- 50 profils : 40 candidatures annoncées, 7 envisagées ou conditionnelles et 3 responsables institutionnels. Il ne s'agit pas de la liste officielle définitive des candidats à la présidentielle 2027.
-- 29 affirmations publiques recensées, dont 17 concernant 15 candidats ou personnalités pressenties et 12 concernant Emmanuel Macron, Sébastien Lecornu et Laurent Nuñez.
-- Analyses préliminaires fondées sur les sources indiquées dans les fiches, non validées indépendamment par une rédaction. Certaines déclarations restent à vérifier.
-- 32 portraits provenant de Wikimedia Commons. Le nom du fichier et le lien vers sa fiche (auteur, crédit, licence) sont associés à chaque profil concerné. Pour les autres profils, les initiales restent affichées.
+Le site affiche **par défaut les 30 derniers jours de déclarations** (fenêtre glissante calculée selon l'heure de Paris). Il conserve un accès au corpus complet, y compris aux affirmations plus anciennes ou dont le jour exact n'a pas été établi.
 
-Fichiers de données : [`data/people.json`](data/people.json) et [`data/claims.json`](data/claims.json).
+**Situation au 22 novembre 2026 :** 50 profils, 34 affirmations recensées au total, dont 25 avec une date de déclaration comprise entre le 24 octobre et le 22 novembre 2026 inclus. Le corpus reste **partiel et non exhaustif** ; il ne répertorie pas toutes les interventions des 50 personnes.
 
-## Interface
+Les profils distinguent candidatures annoncées, envisagées ou conditionnelles, retirées et responsables institutionnels. François Ruffin a retiré sa candidature le 21 novembre 2026 ([LCP, 21 novembre 2026](https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de)).
 
-Le site est **en consultation uniquement** : aucun formulaire d'ajout ou de modification de verdict, aucun bouton d'import ou d'export de données.
+Les fiches contiennent la date (parfois partielle), le contexte, la source d'origine, une explication des limites et des références documentaires. Les analyses ont été préparées avec assistance IA et n'ont pas été relues par une rédaction indépendante. Les 30 jours représentent la **période de déclaration**, pas la date de publication des analyses.
 
-Pages :
-- Vue générale ;
-- Affirmations, recherche et filtres ;
-- Responsables politiques, avec portrait et source du statut de candidature ;
-- Comparatif des faits, donnant le nombre de déclarations étudiées et les effectifs par conclusion ;
-- Méthodologie.
+## Données
 
-Le tableau comparatif ne classe pas les personnes par « honnêteté ». Les déclarations recensées ne forment ni un inventaire exhaustif ni un échantillon homogène ; les résultats ne permettent donc pas de mesurer la fiabilité individuelle des responsables, et encore moins une intention de mentir.
+- [data/people.json](data/people.json) : personnes suivies et statut de candidature sourcé.
+- [data/claims.json](data/claims.json) : affirmations et analyses.
+- [index.html](index.html) : interface statique avec les données intégrées.
 
-## Statuts des affirmations
+Ces fichiers sont synchronisés lors de la publication. Les 32 portraits paramétrés utilisent des liens Wikimedia Commons avec repli sur des initiales, et une fiche de crédits photographiques par profil lorsqu'une photographie est configurée.
 
-- **Confirmé** : le fait examiné est corroboré par les éléments cités ;
-- **À nuancer** : le contexte, le champ ou les dates restreignent la portée de l'énoncé ;
-- **Contredit** : les éléments cités contredisent l'affirmation ;
-- **Indéterminé** : les sources ne permettent pas de trancher ;
-- **À vérifier** : vérification non menée à son terme.
+## Consultation
 
-Ces descriptions portent sur les propositions factuelles, pas sur l'intégrité des personnes.
+Le site ne propose ni ajout manuel d'affirmations, ni export de données depuis l'interface. Il présente les vues Vue générale, Affirmations, Responsables, Comparatif des faits et Méthodologie.
 
-## Sources et licences des portraits
+Le tableau comparatif affiche des **effectifs par type de conclusion**, pas un classement ou une note de sincérité des personnes. Les petits échantillons, non représentatifs, ne permettent pas de comparer la fiabilité personnelle.
 
-Les portraits ne sont pas intégrés au dépôt. Ils sont affichés depuis Wikimedia Commons, en fonction de l'accessibilité des fichiers et sous réserve de leur disponibilité. Les fiches de crédits et licences sont accessibles depuis les profils et sont répertoriées dans `data/people.json` dans le champ `photoSource`.
+Les catégories « Confirmé », « À nuancer », « Contredit », « Indéterminé », « À vérifier » s'appliquent uniquement aux affirmations factuelles, et non aux intentions, promesses ou opinions.
 
-**Attention aux licences :** les conditions varient selon l'image (CC BY, CC BY-SA, CC0, etc.). Les crédits complets et obligations éventuelles d'attribution sont détaillés sur la page Wikimedia Commons de chaque fichier.
+## Mise à jour
 
-## Déploiement et mise à jour
+Hébergement statique GitHub Pages sur `main`. Une veille quotidienne recherche les nouvelles déclarations, vérifie les sources puis tente de synchroniser les fichiers du dépôt ; cette tâche ne garantit ni l'exhaustivité ni une publication automatique en cas d'indisponibilité de GitHub. Le dépôt et l'historique des modifications restent les sources de vérité.
 
-Page statique (HTML, CSS et JavaScript), hébergée via GitHub Pages à partir de la branche `main`.
-
-Les déclarations et les profils sont initialisés directement dans `index.html`, en cohérence avec les fichiers JSON publics. Il n'y a ni collecte automatique ni recherche documentaire en temps réel. Chaque mise à jour publique nécessite une modification du code et des fichiers de données, avec contrôle des sources.
-
-Sources méthodologiques : [European Fact-Checking Standards Network](https://efcsn.com/code-of-standards/) et [Full Fact](https://fullfact.org/about/how-we-fact-check/).
+Références méthodologiques : [EFCSN](https://efcsn.com/code-of-standards/), [Full Fact](https://fullfact.org/about/how-we-fact-check/).
